@@ -41,9 +41,120 @@ body {
 
 #container-header ul li a {
     color: #000000;
+    text-decoration: none;
+    font-size: 1.2em;
+    position: relative;
+    transition: color 0.2s;
+}
+
+#container-header ul li a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 0;
+    height: 2px;
+    background: #E35219;
+    transition: width 0.3s;
+}
+
+#container-header ul li a:hover {
+    cursor: pointer;
+}
+
+#container-header ul li a:hover::after {
+    width: 100%;
 }
 
 /* Garante que o carrossel comece abaixo do header fixo */
 .carrossel {
     padding-top: 16vh;
+}
+
+.bem-vindo {
+    background-color: #E35219;
+    text-align: center;
+    padding: 8em 2em;
+}
+
+.texto-bem-vindo {
+    color: #FCF0E6;
+    margin-bottom: 20px;
+}
+
+.texto-bem-vindo h1 {
+    font-size: 5em;
+    margin-bottom: 20px;
+}
+
+.texto-bem-vindo p {
+    font-size: 2em;
+    padding: 0em 6em;
+}
+
+.texto-sobre {
+    padding: 4em 2em 2em 2em;
+}
+
+.container-sobre {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2em 8em;
+    gap: 2em;
+}
+
+.container-sobre .p-sobre {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5em;
+}
+
+.container-sobre h1 {
+    font-size: 4em;
+    margin-bottom: 20px;
+}
+
+.container-sobre .p-texto {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.container-sobre .p-sobre-abrasiliana {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5em;
+    text-align: right;
+}
+
+.container-sobre .titulo-abrasiliana {
+    font-size: 4em;
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+.container-sobre .p-texto-abrasiliana {
+    font-size: 1.2em;
+    line-height: 1.6;
+    text-align: right;
+}
+
+footer {
+    background-color: #688F25;
+    color: #FCF0E6;
+    padding: 6em 8em;
+    margin-top: 2em;
+}
+
+.logo-footer {
+    background-color: #FCF0E6;
+    border-radius: 1000px;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+    margin: 2em;
 }
