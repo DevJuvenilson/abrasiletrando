@@ -25,18 +25,42 @@
 
 <body>
     <header>
-        <nav>
+        <nav class="navbar navbar-expand-lg">
             <div id="container-header">
-                <a href="index.html" class="logo">
+                <a href="index.html" class="navbar-brand logo">
                     <img src="assets/img/logo/abrasiletrando/logomarca_abrasiletrando.png" alt="Logo Abrasiletrando"
                         width="100px" height="auto">
                 </a>
-                <ul class="">
-                    <li><a href="#" class="barlow-regular">INÍCIO</a></li>
-                    <li><a href="#sobre" class="barlow-regular">SOBRE</a></li>
-                    <li><a href="" class="barlow-regular">+ MOVIMENTOS</a></li>
-                    <li><a href="estante-virtual.html" class="barlow-regular">ESTANTE VIRTUAL</a></li>
-                </ul>
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto lista-link">
+                        <li class="nav-item"><a href="#" class="barlow-regular">INÍCIO</a></li>
+                        <li class="nav-item"><a href="#sobre" class="barlow-regular">SOBRE</a></li>
+                        <li class="nav-item nav-dropdown">
+                            <a class="barlow-regular">MOVIMENTOS &#9662;</a>
+                            <ul class="nav-dropdown-menu">
+                                <li><a href="#">Trovadorismo</a></li>
+                                <li><a href="#">Humanismo</a></li>
+                                <li><a href="#">Classicismo</a></li>
+                                <li><a href="#">Barroco</a></li>
+                                <li><a href="#">Arcadismo</a></li>
+                                <li><a href="#">Romantismo</a></li>
+                                <li><a href="#">Realismo</a></li>
+                                <li><a href="#">Naturalismo</a></li>
+                                <li><a href="#">Simbolismo</a></li>
+                                <li><a href="#">Parnasianismo</a></li>
+                                <li><a href="#">Pré-modernismo</a></li>
+                                <li><a href="#">Modernismo</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a href="estante-virtual.html" class="barlow-regular">ESTANTE VIRTUAL</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
@@ -83,17 +107,17 @@
     <section class="sobre">
         <div class="container-sobre" id="sobre">
             <div class="texto-sobre">
-                <p class="p-sobre barlow-semibold">SOBRE O PROJETO</p>
-                <h1 class="abril-fatface">Abrasiletrando</h1>
-                <p class="p-texto barlow-regular">O Abrasiletrando é um movimento cultural que tem como objetivo
+                <p class="p-sobre-abrasiletrando barlow-semibold">SOBRE O PROJETO</p>
+                <h1 class="titulo-abrasiletrando abril-fatface">Abrasiletrando</h1>
+                <p class="p-texto-abrasiletrando barlow-regular">O Abrasiletrando é um movimento cultural que tem como objetivo
                     promover a
                     valorização da cultura brasileira através da literatura. Fundado em 2020, o movimento busca
                     incentivar a leitura de autores nacionais e a disseminação de obras que retratam a diversidade
                     cultural do Brasil.</p>
-                <p class="p-texto barlow-regular">O movimento Abrasiletrando realiza diversas ações, como a criação de
+                <p class="p-texto-abrasiletrando barlow-regular">O movimento Abrasiletrando realiza diversas ações, como a criação de
                     clubes de leitura, eventos literários, campanhas de incentivo à leitura e parcerias com escolas</p>
             </div>
-            <div class="imagem-sobre">
+            <div class="imagem-sobre-abrasiletrando">
                 <img src="assets/img/logo/abrasiletrando/logomarca_abrasiletrando.png"
                     alt="Imagem sobre o Abrasiletrando" width="100%" height="auto">
             </div>
@@ -124,10 +148,10 @@
     <footer>
         <div class="container-footer">
             <div class="texto-footer">
-                <p class="barlow-regular">ABRASILETRANDO</p>
-                <p class="barlow-regular">Editora Abrasiliana & (nome da startup)</p>
-                <p class="barlow-regular">abrasiletrando@gmail.com</p>
-                <p class="barlow-regular">SENAI Multimídias - 2025</p>
+                <p class="barlow-bold">ABRASILETRANDO</p>
+                <p class="barlow-bold">Editora Abrasiliana & (nome da startup)</p>
+                <p class="barlow-bold">abrasiletrando@gmail.com</p>
+                <p class="barlow-bold">SENAI Multimídias - 2025</p>
                 <a href="#"><img src="assets/img/icons/icon-facebook.png" alt="Ícone Facebook" width="40px"
                         height="auto"></a>
                 <a href="#"><img src="assets/img/icons/icon-instagram.png" alt="Ícone Instagram" width="40px"
