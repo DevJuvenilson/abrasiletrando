@@ -3,6 +3,7 @@ const MOVIMENTOS_E_OBRAS = [
     {
         id: 1,
         nome_movimento: "Trovadorismo",
+        geracoes: false,
         obras: [
             {
                 id: 1,
@@ -101,6 +102,7 @@ const MOVIMENTOS_E_OBRAS = [
     {
         id: 2,
         nome_movimento: "Humanismo",
+        geracoes: false,
         obras: [
             {
                 id: 1,
@@ -198,6 +200,7 @@ const MOVIMENTOS_E_OBRAS = [
     {
         id: 3,
         nome_movimento: "Classicismo",
+        geracoes: false,
         obras: [
             {
                 id: 1,
@@ -235,6 +238,7 @@ const MOVIMENTOS_E_OBRAS = [
     {
         id: 4,
         nome_movimento: "Barroco",
+        geracoes: false,
         obras: [
             {
                 id: 1,
@@ -324,6 +328,7 @@ const MOVIMENTOS_E_OBRAS = [
     {
         id: 5,
         nome_movimento: "Arcadismo",
+        geracoes: false,
         obras: [
             {
                 id: 1,
@@ -418,10 +423,12 @@ const MOVIMENTOS_E_OBRAS = [
     {
         id: 6,
         nome_movimento: "Romantismo",
+        geracoes: true,
         obras: [
             {
                 id: 1,
                 nome_obra: "Iracema",
+                geracao: "1ª Geração",
                 informacoes_basicas: {
                     autor: "José de Alencar",
                     ano: "1865",
@@ -449,6 +456,7 @@ const MOVIMENTOS_E_OBRAS = [
             {
                 id: 2,
                 nome_obra: "Noite na Taverna",
+                geracao: "2ª Geração",
                 informacoes_basicas: {
                     autor: "Álvares de Azevedo",
                     ano: "1855",
@@ -476,6 +484,7 @@ const MOVIMENTOS_E_OBRAS = [
             {
                 id: 3,
                 nome_obra: "O Navio Negreiro",
+                geracao: "3ª Geração",
                 informacoes_basicas: {
                     autor: "Castro Alves",
                     ano: "1869",
@@ -507,6 +516,7 @@ const MOVIMENTOS_E_OBRAS = [
     {
         id: 7,
         nome_movimento: "Realismo",
+        geracoes: false,
         obras: [
             {
                 id: 1,
@@ -606,6 +616,7 @@ const MOVIMENTOS_E_OBRAS = [
     {
         id: 8,
         nome_movimento: "Naturalismo",
+        geracoes: false,
         obras: [
             {
                 id: 1,
@@ -702,6 +713,7 @@ const MOVIMENTOS_E_OBRAS = [
     {
         id: 9,
         nome_movimento: "Simbolismo",
+        geracoes: false,
         obras: [
             {
                 id: 1,
@@ -791,6 +803,7 @@ const MOVIMENTOS_E_OBRAS = [
     {
         id: 10,
         nome_movimento: "Parnasianismo",
+        geracoes: false,
         obras: [
             {
                 id: 1,
@@ -879,6 +892,7 @@ const MOVIMENTOS_E_OBRAS = [
     {
         id: 11,
         nome_movimento: "Pré-Modernismo",
+        geracoes: false,
         obras: [
             {
                 id: 1,
@@ -967,10 +981,12 @@ const MOVIMENTOS_E_OBRAS = [
     {
         id: 12,
         nome_movimento: "Modernismo",
+        geracoes: true,
         obras: [
             {
                 id: 1,
                 nome_obra: "Macunaíma, o herói sem nenhum caráter",
+                geracao: "1ª Geração",
                 informacoes_basicas: {
                     autor: "Mário de Andrade",
                     ano: "1928",
@@ -1002,6 +1018,7 @@ const MOVIMENTOS_E_OBRAS = [
             {
                 id: 2,
                 nome_obra: "Vidas Secas",
+                geracao: "2ª Geração",
                 informacoes_basicas: {
                     autor: "Graciliano Ramos",
                     ano: "1938",
@@ -1033,6 +1050,7 @@ const MOVIMENTOS_E_OBRAS = [
             {
                 id: 3,
                 nome_obra: "As Meninas",
+                geracao: "3ª Geração",
                 informacoes_basicas: {
                     autor: "Lygia Fagundes Telles",
                     ano: "1973",
