@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abrasiletrando</title>
+    <title></title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
@@ -23,6 +23,15 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/header-style.css">
     <link rel="stylesheet" href="css/footer-style.css">
+    <style>
+        footer {
+            background-color: #3D0A0F;
+            color: #FCF0E6;
+            padding: 4em 8em 2em 8em;
+            margin-top: 2em;
+            box-sizing: border-box;
+        }
+    </style>
 </head>
 
 <body>
@@ -40,8 +49,8 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto lista-link">
-                        <li class="nav-item"><a href="#" class="barlow-regular">INÍCIO</a></li>
-                        <li class="nav-item"><a href="#sobre" class="barlow-regular">SOBRE</a></li>
+                        <li class="nav-item"><a href="index.html" class="barlow-regular">INÍCIO</a></li>
+                        <li class="nav-item"><a href="index.html#sobre" class="barlow-regular">SOBRE</a></li>
                         <li class="nav-item nav-dropdown">
                             <a class="barlow-regular">MOVIMENTOS &#9662;</a>
                             <ul class="nav-dropdown-menu">
@@ -67,84 +76,67 @@
         </nav>
     </header>
 
-    <section class="carrossel">
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="assets/img/banners/carrossel-home/banner-carrossel-01.png" class="d-block" alt="..."
-                        width="100%" height="auto">
+    <section class="container-movimento">
+        <h1 class="titulo-movimento abril-fatface">ROMANTISMO</h1>
+        <p class="descricao-movimento">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore aliquam suscipit
+            sunt possimus incidunt, officia et modi dolorum quidem cupiditate reprehenderit animi corporis, quam ad?
+            Corrupti sint natus molestiae commodi!</p>
+    </section>
+
+    <section class="container-informacoes-obra">
+        <h2 class="titulo-section-informacoes abril-fatface">Iracema</h2>
+        <p class="geracao-obra barlow-medium">1ª GERAÇÃO ROMÂNTICA</p>
+        <div class="container-informacoes-obra">
+            <div class="caracteristicas-obra">
+                <img src="assets/img/obras/iracema.jpg" alt="Capa do livro Iracema">
+                <div class="informacoes-basicas-obra">
+                    <h3 class="titulo-informacoes-obra barlow-extrabold">INFORMAÇÕES BÁSICAS</h3>
+                    <p class="autor-obra barlow-bold">Autor: José de Alencar</p>
+                    <p class="ano-obra barlow-bold">Ano: 1865</p>
+                    <p class="genero-obra barlow-bold">Gênero literário: Romance indianista</p>
                 </div>
-                <div class="carousel-item">
-                    <img src="assets/img/banners/carrossel-home/banner-carrossel-02.png" class="d-block" alt="..."
-                        width="100%" height="auto">
+            </div>
+            <div class="resumo-contexto-audio-obra">
+                <div class="resumo-obra">
+                    <h3 class="subtitulo-obra barlow-extrabold">RESUMO DA OBRA</h3>
+                    <p class="texto-resumo-obra barlow-regular">Iracema é um romance indianista escrito por José de
+                        Alencar, publicado em 1865. A obra narra a história de amor entre Iracema, uma jovem índia
+                        tabajara, e Martim, um guerreiro português. O romance é ambientado no Ceará e explora temas
+                        como a colonização, o choque cultural entre indígenas e europeus, e a construção da identidade
+                        brasileira. Iracema é frequentemente interpretada como uma alegoria da formação do Brasil,
+                        simbolizando a união entre o indígena e o europeu.</p>
+                </div>
+                <div class="contexto-obra">
+                    <div class="texto-contexto-obra">
+                        <h3 class="subtitulo-obra barlow-extrabold">CONTEXTO</h3>
+                        <p class="texto-contexto-obra barlow-regular">O romance "Iracema" foi escrito por José de
+                            Alencar
+                            durante o século XIX, um período marcado pela consolidação da identidade nacional
+                            brasileira.
+                            Publicado em 1865, o livro reflete as tensões e transformações sociais decorrentes da
+                            colonização portuguesa e da interação entre indígenas e europeus. A obra se insere no
+                            movimento literário do Romantismo, que valorizava a exaltação da natureza, o nacionalismo e
+                            a
+                            idealização do passado. "Iracema" é considerado um marco na literatura brasileira por sua
+                            representação simbólica da formação do Brasil, abordando temas como a miscigenação e a
+                            construção da identidade cultural do país.</p>
+                    </div>
+                    <div class="imagem-contexto-obra">
+                        <img src="assets/img/obras/romantismo/iracema_contexto.jpg" alt="Foto de José de Alencar">
+                    </div>
+                </div>
+                <div class="audio-obra">
+                    <h3 class="subtitulo-obra barlow-extrabold">OUÇA A TRANSCRIÇÃO!</h3>
+                    <audio controls>
+                        <source src="assets/audios/iracema.mp3" type="audio/mpeg">
+                        Seu navegador não suporta o elemento de áudio.
+                    </audio>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
     </section>
 
-    <section class="bem-vindo">
-        <div class="texto-bem-vindo">
-            <h1 class="abril-fatface">Seja bem-vindo(a)!</h1>
-            <p class="barlow-regular">Conheça o Abrasiletrando! Um movimento que visa a valorização da cultura
-                brasileira através da literatura.</p>
-        </div>
-    </section>
-
-    <section class="sobre">
-        <div class="container-sobre" id="sobre">
-            <div class="texto-sobre">
-                <p class="p-sobre-abrasiletrando barlow-semibold">SOBRE O PROJETO</p>
-                <h1 class="titulo-abrasiletrando abril-fatface">Abrasiletrando</h1>
-                <p class="p-texto-abrasiletrando barlow-regular">O Abrasiletrando é um movimento cultural que tem como objetivo
-                    promover a
-                    valorização da cultura brasileira através da literatura. Fundado em 2020, o movimento busca
-                    incentivar a leitura de autores nacionais e a disseminação de obras que retratam a diversidade
-                    cultural do Brasil.</p>
-                <p class="p-texto-abrasiletrando barlow-regular">O movimento Abrasiletrando realiza diversas ações, como a criação de
-                    clubes de leitura, eventos literários, campanhas de incentivo à leitura e parcerias com escolas</p>
-            </div>
-            <div class="imagem-sobre-abrasiletrando">
-                <img src="assets/img/logo/abrasiletrando/logomarca_abrasiletrando.png"
-                    alt="Imagem sobre o Abrasiletrando" width="100%" height="auto">
-            </div>
-        </div>
-    </section>
-
-    <section class="sobre">
-        <div class="container-sobre" id="sobre">
-            <div class="imagem-sobre">
-                <img src="assets/img/logo/abrasiletrando/logomarca_abrasiletrando.png"
-                    alt="Imagem sobre o Abrasiletrando" width="100%" height="auto">
-            </div>
-            <div class="texto-sobre">
-                <p class="p-sobre-abrasiliana barlow-semibold">SOBRE A EDITORA</p>
-                <h1 class="titulo-abrasiliana abril-fatface">Abrasiliana</h1>
-                <p class="p-texto-abrasiliana barlow-regular">O Abrasiletrando é um movimento cultural que tem como
-                    objetivo promover a
-                    valorização da cultura brasileira através da literatura. Fundado em 2020, o movimento busca
-                    incentivar a leitura de autores nacionais e a disseminação de obras que retratam a diversidade
-                    cultural do Brasil.</p>
-                <p class="p-texto-abrasiliana barlow-regular">O movimento Abrasiletrando realiza diversas ações, como a
-                    criação de
-                    clubes de leitura, eventos literários, campanhas de incentivo à leitura e parcerias com escolas</p>
-            </div>
-        </div>
+    <section class="container-aspectos-linguisticos-obra">
+        <h2 class="titulo-section-aspectos abril-fatface">Aspectos linguísticos</h2>
     </section>
 
     <footer>

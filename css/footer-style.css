@@ -1,0 +1,67 @@
+footer {
+    background-color: #688F25;
+    color: #FCF0E6;
+    padding: 4em 8em 2em 8em;
+    margin-top: 2em;
+    box-sizing: border-box;
+}
+
+.logo-footer {
+    background-color: #FCF0E6;
+    border-radius: 1000px;
+    width: 300px;
+    /* aumente o tamanho do círculo */
+    height: 300px;
+    /* aumente o tamanho do círculo */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    /* garante que a imagem fique dentro do círculo */
+}
+
+.logo-footer img {
+    width: 240px;
+    /* ajuste o tamanho da imagem conforme necessário */
+    height: 240px;
+    object-fit: cover;
+    /* mantém a imagem centralizada e cortada */
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2em;
+    margin: 2em;
+}
+
+@media (max-width: 768px) {
+    footer {
+        padding: 4em 2em 2em 2em;
+        text-align: center;
+    }
+
+    .container-footer {
+        flex-direction: column;
+        gap: 2em;
+        margin: 0;
+        padding: 0;
+    }
+
+    .logo-footer {
+        width: 200px;
+        height: 200px;
+    }
+
+    .logo-footer img {
+        width: 160px;
+        height: 160px;
+    }
+}
+
+.direitos {
+    font-size: 1.2em;
+    text-align: center;
+    margin: 1em 0;
+}

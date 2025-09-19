@@ -3,11 +3,14 @@ const MOVIMENTOS_E_OBRAS = [
     {
         id: 1,
         nome_movimento: "Trovadorismo",
+        descricao_movimento: "O Trovadorismo é o primeiro movimento literário da língua portuguesa, surgido na Idade Média, entre os séculos XII e XIV. Caracteriza-se pela poesia cantada, composta por trovadores que viajavam entre cortes e nobres, compondo cantigas para entretenimento e prestígio social. As principais formas poéticas são as cantigas de amor, cantigas de amigo e cantigas de escárnio e maldizer. A linguagem é simples, clara e direta, própria da lírica popular, com forte musicalidade e repetição.",
+        audio_movimento: "assets/audios/trovadorismo.mp3",
         geracoes: false,
         obras: [
             {
                 id: 1,
                 nome_obra: "Ondas do Mar de Vigo",
+                foto_obra: "assets/img/obras/trovadorismo/ondas_do_mar_de_vigo.png",
                 informacoes_basicas: {
                     autor: "Martim Codax",
                     ano: "Século XII",
@@ -39,6 +42,7 @@ const MOVIMENTOS_E_OBRAS = [
             {
                 id: 2,
                 nome_obra: "Ai dona fea, fostes-vos queixar",
+                foto_obra: "assets/img/obras/trovadorismo/ai_dona_fea_fostes-vos_queixar.png",
                 informacoes_basicas: {
                     autor: "João Garcia de Guilhade",
                     ano: "Entre 1241 e 1270",
@@ -69,6 +73,7 @@ const MOVIMENTOS_E_OBRAS = [
             {
                 id: 3,
                 nome_obra: "Amor, que por mim não guardas tino",
+                foto_obra: "assets/img/obras/trovadorismo/amor_que_por_mim_nao_guardas_tino.png",
                 informacoes_basicas: {
                     autor: "Dom Dinis I de Portugal",
                     ano: "Século XIII",
@@ -102,11 +107,14 @@ const MOVIMENTOS_E_OBRAS = [
     {
         id: 2,
         nome_movimento: "Humanismo",
+        descricao_movimento: "O Humanismo é um movimento cultural e intelectual que surgiu na Europa durante o Renascimento, enfatizando a redescoberta dos valores da Antiguidade Clássica, a dignidade do ser humano e a importância da razão. Em Portugal, o Humanismo se manifestou nas artes, na literatura e na filosofia, promovendo uma visão mais crítica e racional do mundo.",
+        audio_movimento: "assets/audios/humanismo.mp3",
         geracoes: false,
         obras: [
             {
                 id: 1,
                 nome_obra: "Crônica del Rei Dom João I",
+                foto_obra: "assets/img/obras/humanismo/cronica_del_rei_dom_joao_i.png",
                 informacoes_basicas: {
                     autor: "Fernão Lopes",
                     ano: "Início do século XV",
@@ -137,6 +145,7 @@ const MOVIMENTOS_E_OBRAS = [
             {
                 id: 2,
                 nome_obra: "Auto da Barca do Inferno",
+                foto_obra: "assets/img/obras/humanismo/auto_da_barca_do_inferno.png",
                 informacoes_basicas: {
                     autor: "Gil Vicente",
                     ano: "1517",
@@ -167,6 +176,7 @@ const MOVIMENTOS_E_OBRAS = [
             {
                 id: 3,
                 nome_obra: "Cancioneiro Geral",
+                foto_obra: "assets/img/obras/humanismo/cancioneiro_geral.png",
                 informacoes_basicas: {
                     autor: "Garcia de Resende",
                     ano: "1516",
@@ -200,11 +210,14 @@ const MOVIMENTOS_E_OBRAS = [
     {
         id: 3,
         nome_movimento: "Classicismo",
+        descricao_movimento: "O Classicismo é um movimento cultural e artístico que surgiu na Europa durante o Renascimento, caracterizado pela valorização dos ideais da Antiguidade Clássica, como a harmonia, o equilíbrio, a proporção e a busca pela perfeição estética. Em Portugal, o Classicismo se manifestou na literatura, nas artes plásticas e na arquitetura, refletindo uma visão humanista do mundo e uma valorização da razão e da beleza.",
+        audio_movimento: "assets/audios/classicismo.mp3",
         geracoes: false,
         obras: [
             {
                 id: 1,
                 nome_obra: "Amor é fogo que arde sem se ver",
+                foto_obra: "assets/img/obras/classicismo/amor_e_fogo_que_arde_sem_se_ver.png",
                 informacoes_basicas: {
                     autor: "Luís de Camões",
                     ano: "1598",
@@ -238,11 +251,14 @@ const MOVIMENTOS_E_OBRAS = [
     {
         id: 4,
         nome_movimento: "Barroco",
+        descricao_movimento: "O Barroco é um movimento cultural e artístico que surgiu na Europa no final do século XVI e se estendeu até o século XVIII, caracterizado por sua exuberância, complexidade e dramaticidade. No Brasil, o Barroco se manifestou principalmente na literatura, nas artes plásticas e na arquitetura, refletindo as contradições da época, como a tensão entre a fé religiosa e a razão, o corpo e a alma, o efêmero e o eterno. A literatura barroca é marcada pelo uso de figuras de linguagem como a antítese, o paradoxo e a metáfora, além de uma linguagem rebuscada e elaborada.",
+        audio_movimento: "assets/audios/barroco.mp3",
         geracoes: false,
         obras: [
             {
                 id: 1,
                 nome_obra: "Sermões",
+                foto_obra: "assets/img/obras/barroco/sermoes.png",
                 informacoes_basicas: {
                     autor: "Padre Antônio Vieira",
                     ano: "Séculos XVII - XVIII",
@@ -271,6 +287,7 @@ const MOVIMENTOS_E_OBRAS = [
             {
                 id: 2,
                 nome_obra: "Prosopopeia",
+                foto_obra: "assets/img/obras/barroco/prosopopeia.png",
                 informacoes_basicas: {
                     autor: "Bento Teixeira",
                     ano: "1601",
@@ -298,6 +315,7 @@ const MOVIMENTOS_E_OBRAS = [
             {
                 id: 3,
                 nome_obra: "Obras Poéticas",
+                foto_obra: "assets/img/obras/barroco/obras_poeticas.png",
                 informacoes_basicas: {
                     autor: "Gregório de Matos",
                     ano: "Século XVII",
@@ -328,11 +346,14 @@ const MOVIMENTOS_E_OBRAS = [
     {
         id: 5,
         nome_movimento: "Arcadismo",
+        descricao_movimento: "O Arcadismo, também conhecido como Neoclassicismo, é um movimento literário que surgiu na Europa no século XVIII, como uma reação ao Barroco. Caracteriza-se pela valorização da simplicidade, da natureza e da razão, buscando inspiração na Antiguidade Clássica. No Brasil, o Arcadismo se manifestou principalmente na poesia, com temas como o amor idealizado, a vida bucólica e a crítica social. A linguagem é clara, objetiva e equilibrada, refletindo os ideais iluministas da época.",
+        audio_movimento: "assets/audios/arcadismo.mp3",
         geracoes: false,
         obras: [
             {
                 id: 1,
                 nome_obra: "Marília de Dirceu",
+                foto_obra: "assets/img/obras/arcadismo/marilia_de_dirceu.png",
                 informacoes_basicas: {
                     autor: "Tomás Antônio Gonzaga",
                     ano: "1792",
@@ -364,6 +385,7 @@ const MOVIMENTOS_E_OBRAS = [
             {
                 id: 2,
                 nome_obra: "Cartas Chilenas",
+                foto_obra: "assets/img/obras/arcadismo/cartas_chilenas.png",
                 informacoes_basicas: {
                     autor: "Tomás Antônio Gonzaga",
                     ano: "Final do século XVIII",
@@ -392,6 +414,7 @@ const MOVIMENTOS_E_OBRAS = [
             {
                 id: 3,
                 nome_obra: "O Uraguai",
+                foto_obra: "assets/img/obras/arcadismo/o_uraguai.png",
                 informacoes_basicas: {
                     autor: "Basílio da Gama",
                     ano: "1769",
@@ -423,12 +446,15 @@ const MOVIMENTOS_E_OBRAS = [
     {
         id: 6,
         nome_movimento: "Romantismo",
+        descricao_movimento: "O Romantismo é um movimento literário que surgiu no final do século XVIII e se estendeu pelo século XIX, caracterizado pela valorização da emoção, da imaginação e da individualidade. No Brasil, o Romantismo teve um papel importante na construção da identidade nacional, explorando temas como a natureza, o indígena, o passado histórico e a exaltação do amor. A linguagem é marcada pela subjetividade, pelo uso de figuras de linguagem e por uma estética que busca o belo e o sublime.",
+        audio_movimento: "assets/audios/romantismo.mp3",
         geracoes: true,
         obras: [
             {
                 id: 1,
                 nome_obra: "Iracema",
-                geracao: "1ª Geração",
+                foto_obra: "assets/img/obras/romantismo/iracema.png",
+                geracao: "1ª GERAÇÃO ROMÂNTICA",
                 informacoes_basicas: {
                     autor: "José de Alencar",
                     ano: "1865",
@@ -456,7 +482,8 @@ const MOVIMENTOS_E_OBRAS = [
             {
                 id: 2,
                 nome_obra: "Noite na Taverna",
-                geracao: "2ª Geração",
+                foto_obra: "assets/img/obras/romantismo/noite_na_taverna.png",
+                geracao: "2ª GERAÇÃO ROMÂNTICA",
                 informacoes_basicas: {
                     autor: "Álvares de Azevedo",
                     ano: "1855",
@@ -484,7 +511,8 @@ const MOVIMENTOS_E_OBRAS = [
             {
                 id: 3,
                 nome_obra: "O Navio Negreiro",
-                geracao: "3ª Geração",
+                foto_obra: "assets/img/obras/romantismo/o_navio_negreiro.png",
+                geracao: "3ª GERAÇÃO ROMÂNTICA",
                 informacoes_basicas: {
                     autor: "Castro Alves",
                     ano: "1869",
@@ -516,11 +544,14 @@ const MOVIMENTOS_E_OBRAS = [
     {
         id: 7,
         nome_movimento: "Realismo",
+        descricao_movimento: "O Realismo é um movimento literário que surgiu na segunda metade do século XIX, como uma reação ao Romantismo. Caracteriza-se pela representação objetiva e detalhada da realidade, com foco na análise social, psicológica e moral dos personagens. No Brasil, o Realismo se manifestou principalmente na prosa, com obras que abordam temas como a hipocrisia social, a luta de classes, a corrupção e os conflitos internos dos indivíduos. A linguagem é clara, precisa e direta, buscando retratar a vida cotidiana de forma crítica e reflexiva.",
+        audio_movimento: "assets/audios/realismo.mp3",
         geracoes: false,
         obras: [
             {
                 id: 1,
                 nome_obra: "Memórias Póstumas de Brás Cubas",
+                foto_obra: "assets/img/obras/realismo/memorias_postumas_de_bras_cubas.png",
                 informacoes_basicas: {
                     autor: "Machado de Assis",
                     ano: "1881",
@@ -552,6 +583,7 @@ const MOVIMENTOS_E_OBRAS = [
             {
                 id: 2,
                 nome_obra: "Dom Casmurro",
+                foto_obra: "assets/img/obras/realismo/dom_casmurro.png",
                 informacoes_basicas: {
                     autor: "Machado de Assis",
                     ano: "1899",
@@ -582,6 +614,7 @@ const MOVIMENTOS_E_OBRAS = [
             {
                 id: 3,
                 nome_obra: "O Ateneu",
+                foto_obra: "assets/img/obras/realismo/o_ateneu.png",
                 informacoes_basicas: {
                     autor: "Raul Pompeia",
                     ano: "1888",
@@ -616,11 +649,14 @@ const MOVIMENTOS_E_OBRAS = [
     {
         id: 8,
         nome_movimento: "Naturalismo",
+        descricao_movimento: "O Naturalismo é um movimento literário que surgiu na segunda metade do século XIX, como uma ramificação do Realismo. Caracteriza-se pela ênfase na observação científica da realidade, influenciada pelas teorias de Charles Darwin e pelo determinismo social e biológico. No Brasil, o Naturalismo se manifestou principalmente na prosa, com obras que exploram temas como a influência do meio ambiente e da hereditariedade no comportamento humano, além de abordar questões sociais como a pobreza, a marginalização e os vícios. A linguagem é objetiva, detalhada e descritiva, buscando retratar a vida de forma crua e realista.",
+        audio_movimento: "assets/audios/naturalismo.mp3",
         geracoes: false,
         obras: [
             {
                 id: 1,
                 nome_obra: "O Cortiço",
+                foto_obra: "assets/img/obras/naturalismo/o_cortico.png",
                 informacoes_basicas: {
                     autor: "Aluísio de Azevedo",
                     ano: "1890",
@@ -651,6 +687,7 @@ const MOVIMENTOS_E_OBRAS = [
             {
                 id: 2,
                 nome_obra: "Memórias de Martha",
+                foto_obra: "assets/img/obras/naturalismo/memorias_de_martha.png",
                 informacoes_basicas: {
                     autor: "Julia Lopes de Almeida",
                     ano: "1899",
@@ -680,6 +717,7 @@ const MOVIMENTOS_E_OBRAS = [
             {
                 id: 3,
                 nome_obra: "O Mulato",
+                foto_obra: "assets/img/obras/naturalismo/o_mulato.png",
                 informacoes_basicas: {
                     autor: "Aluísio de Azevedo",
                     ano: "1881",
@@ -713,11 +751,14 @@ const MOVIMENTOS_E_OBRAS = [
     {
         id: 9,
         nome_movimento: "Simbolismo",
+        descricao_movimento: "O Simbolismo é um movimento literário que surgiu no final do século XIX, como uma reação ao Realismo e ao Naturalismo. Caracteriza-se pela valorização da subjetividade, da emoção e do mistério, buscando expressar o mundo interior e as sensações através de símbolos, imagens e metáforas. No Brasil, o Simbolismo se manifestou principalmente na poesia, com temas como a espiritualidade, a melancolia, o sonho e a busca pelo transcendental. A linguagem é marcada pela musicalidade, pela sugestão e pelo uso de figuras de linguagem que evocam sentimentos e estados de espírito.",
+        audio_movimento: "assets/audios/simbolismo.mp3",
         geracoes: false,
         obras: [
             {
                 id: 1,
                 nome_obra: "Missal",
+                foto_obra: "assets/img/obras/simbolismo/missal.png",
                 informacoes_basicas: {
                     autor: "Cruz e Sousa",
                     ano: "1893",
@@ -745,6 +786,7 @@ const MOVIMENTOS_E_OBRAS = [
             {
                 id: 2,
                 nome_obra: "Broquéis",
+                foto_obra: "assets/img/obras/simbolismo/broqueis.png",
                 informacoes_basicas: {
                     autor: "Cruz e Sousa",
                     ano: "1893",
@@ -772,6 +814,7 @@ const MOVIMENTOS_E_OBRAS = [
             {
                 id: 3,
                 nome_obra: "As Flores do Mal",
+                foto_obra: "assets/img/obras/simbolismo/as_flores_do_mal.png",
                 informacoes_basicas: {
                     autor: "Charles Baudelaire",
                     ano: "1857",
@@ -803,11 +846,14 @@ const MOVIMENTOS_E_OBRAS = [
     {
         id: 10,
         nome_movimento: "Parnasianismo",
+        descricao_movimento: "O Parnasianismo é um movimento literário que surgiu na França no final do século XIX, como uma reação ao Romantismo. Caracteriza-se pela valorização da forma, da técnica e da objetividade, buscando a perfeição estética e a impessoalidade na criação literária. No Brasil, o Parnasianismo se manifestou principalmente na poesia, com temas como a mitologia, a natureza, a arte e a exaltação da beleza. A linguagem é marcada pela precisão, pela clareza e pelo uso de figuras de linguagem que enfatizam a musicalidade e a harmonia dos versos.",
+        audio_movimento: "assets/audios/parnasianismo.mp3",
         geracoes: false,
         obras: [
             {
                 id: 1,
                 nome_obra: "Poesias",
+                foto_obra: "assets/img/obras/parnasianismo/poesias.png",
                 informacoes_basicas: {
                     autor: "Olavo Bilac",
                     ano: "1888",
@@ -835,6 +881,7 @@ const MOVIMENTOS_E_OBRAS = [
             {
                 id: 2,
                 nome_obra: "Poesias",
+                foto_obra: "assets/img/obras/parnasianismo/poesias_raimundo_correia.png",
                 informacoes_basicas: {
                     autor: "Raimundo Correia",
                     ano: "1883",
@@ -862,6 +909,7 @@ const MOVIMENTOS_E_OBRAS = [
             {
                 id: 3,
                 nome_obra: "Poesias",
+                foto_obra: "assets/img/obras/parnasianismo/poesias_alberto_de_oliveira.png",
                 informacoes_basicas: {
                     autor: "Alberto de Oliveira",
                     ano: "1885",
@@ -892,11 +940,14 @@ const MOVIMENTOS_E_OBRAS = [
     {
         id: 11,
         nome_movimento: "Pré-Modernismo",
+        descricao_movimento: "O Pré-Modernismo é um período de transição na literatura brasileira que antecede o Modernismo, abrangendo aproximadamente as primeiras décadas do século XX. Caracteriza-se pela diversidade de estilos e temas, refletindo as mudanças sociais, políticas e econômicas do Brasil da época. O Pré-Modernismo aborda questões como a identidade nacional, a crítica social, a vida urbana e rural, além de explorar diferentes regiões do país. A linguagem varia entre o regionalismo, o realismo e o simbolismo, preparando o terreno para as inovações que viriam com o Modernismo.",
+        audio_movimento: "assets/audios/pre_modernismo.mp3",
         geracoes: false,
         obras: [
             {
                 id: 1,
                 nome_obra: "O Triste Fim de Policarpo Quaresma",
+                foto_obra: "assets/img/obras/pre_modernismo/o_triste_fim_de_policarpo_quaresma.png",
                 informacoes_basicas: {
                     autor: "Lima Barreto",
                     ano: "1915",
@@ -924,6 +975,7 @@ const MOVIMENTOS_E_OBRAS = [
             {
                 id: 2,
                 nome_obra: "Os Sertões",
+                foto_obra: "assets/img/obras/pre_modernismo/os_sertoes.png",
                 informacoes_basicas: {
                     autor: "Euclides da Cunha",
                     ano: "1902",
@@ -951,6 +1003,7 @@ const MOVIMENTOS_E_OBRAS = [
             {
                 id: 3,
                 nome_obra: "Urupês",
+                foto_obra: "assets/img/obras/pre_modernismo/urupes.png",
                 informacoes_basicas: {
                     autor: "Monteiro Lobato",
                     ano: "1918",
@@ -981,12 +1034,15 @@ const MOVIMENTOS_E_OBRAS = [
     {
         id: 12,
         nome_movimento: "Modernismo",
+        descricao_movimento: "O Modernismo é um movimento literário que surgiu no início do século XX, caracterizado pela ruptura com as tradições literárias anteriores e pela busca de novas formas de expressão. No Brasil, o Modernismo teve seu marco inicial na Semana de Arte Moderna de 1922, que reuniu artistas e escritores que propunham uma renovação estética e cultural. O movimento valorizou a experimentação, a liberdade criativa e a diversidade cultural, explorando temas como a identidade nacional, a urbanização, a industrialização e as questões sociais. A linguagem modernista é marcada pela inovação, pelo uso de coloquialismos, pela mistura de estilos e pela valorização do regionalismo.",
+        audio_movimento: "assets/audios/modernismo.mp3",
         geracoes: true,
         obras: [
             {
                 id: 1,
                 nome_obra: "Macunaíma, o herói sem nenhum caráter",
-                geracao: "1ª Geração",
+                foto_obra: "assets/img/obras/modernismo/macunaima.png",
+                geracao: "1ª GERAÇÃO MODERNISTA",
                 informacoes_basicas: {
                     autor: "Mário de Andrade",
                     ano: "1928",
@@ -1018,7 +1074,8 @@ const MOVIMENTOS_E_OBRAS = [
             {
                 id: 2,
                 nome_obra: "Vidas Secas",
-                geracao: "2ª Geração",
+                foto_obra: "assets/img/obras/modernismo/vidas_secas.png",
+                geracao: "2ª GERAÇÃO MODERNISTA",
                 informacoes_basicas: {
                     autor: "Graciliano Ramos",
                     ano: "1938",
@@ -1050,7 +1107,8 @@ const MOVIMENTOS_E_OBRAS = [
             {
                 id: 3,
                 nome_obra: "As Meninas",
-                geracao: "3ª Geração",
+                foto_obra: "assets/img/obras/modernismo/as_meninas.png",
+                geracao: "3ª GERAÇÃO MODERNISTA",
                 informacoes_basicas: {
                     autor: "Lygia Fagundes Telles",
                     ano: "1973",
