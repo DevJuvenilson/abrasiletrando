@@ -280,7 +280,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     padding: 1em 2em;
     margin-bottom: 1.5em;
-    text-align: justify;
+    text-align: left;
     display: flex;
     justify-content: space-between;
     gap: 2em;
@@ -354,4 +354,15 @@ body {
     color: #3D0A0F;
     font-size: 3em;
     text-align: center;
+}
+
+/* Estilos responsivos para telas menores */
+@media (max-width: 768px) {
+    .section-quiz-obra {
+        padding: 2em 1.5em;
+    }
+
+    .titulo-quiz {
+        font-size: 2em;
+    }
 }
