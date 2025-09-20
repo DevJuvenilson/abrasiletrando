@@ -8,3 +8,350 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #EDCBB0;
 }
+
+.container-movimento {
+    background-color: #E35219;
+    margin-top: 14vh;
+    box-sizing: border-box;
+    color: #FCF0E6;
+    text-align: center;
+    padding: 8em;
+    width: 100%;
+}
+
+.titulo-movimento {
+    font-size: 5em;
+    margin-bottom: 20px;
+}
+
+.descricao-movimento {
+    font-size: 1.5em;
+    padding: 0;
+    margin: 0 auto;
+}
+
+/* Estilização para telas menores */
+@media (max-width: 768px) {
+    .container-movimento {
+        padding: 4em 2em;
+    }
+
+    .titulo-movimento {
+        font-size: 2.5em;
+    }
+
+    .descricao-movimento {
+        font-size: 1.2em;
+    }
+}
+
+.section-informacoes-obra {
+    background-color: #688F25;
+    padding: 4em 10em;
+    box-sizing: border-box;
+    height: auto;
+}
+
+.titulo-section-informacoes {
+    color: #3D0A0F;
+    font-size: 3em;
+    text-align: left;
+}
+
+.geracao-obra {
+    color: #3D0A0F;
+    font-size: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.container-informacoes-obra {
+    display: flex;
+    gap: 4em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.caracteristicas-obra {
+    text-align: center;
+}
+
+.capa-retangulo {
+    background: #D9D9D9;
+    padding: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.07);
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    margin-bottom: 1.5em;
+}
+
+.capa-retangulo img {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+.informacoes-basicas-obra {
+    text-align: center;
+    background-color: #D9D9D9;
+    border-radius: 42px;
+    height: fit-content;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 1em 2em; /* Adicione esta linha para espaçamento interno */
+    margin: 0 auto;    /* Centraliza se desejar */
+}
+
+.titulo-informacoes-obra {
+    color: #3D0A0F;
+    padding-bottom: 0.5em;
+    border-radius: 42px 42px 0 0;
+    margin: 0;
+}
+
+.autor-obra, .ano-obra, .genero-obra {
+    color: #3D0A0F;
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+.resumo-contexto-audio-obra {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.resumo-obra {
+    background-color: #3D0A0F;
+    color: #EDCBB0;
+    border-radius: 42px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 1em 2em;
+    margin-bottom: 1.5em;
+    text-align: justify;
+}
+
+.titulo-resumo-obra, .titulo-contexto-obra, .titulo-estrutura, .titulos-aspectos-gerais {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.texto-resumo-obra, .texto-contexto-obra, .lista-estrutura {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.contexto-obra {
+    background-color: #B64012;
+    color: #EDCBB0;
+    border-radius: 42px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 1em 2em;
+    margin-bottom: 1.5em;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imagem-contexto-obra {
+    text-align: center;
+    padding: 0.5em 1.2em;
+}
+
+.imagem-contexto-obra img {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+.audio-obra{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3D0A0F;
+    color: #EDCBB0;
+    border-radius: 21px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 1em 2em;
+    margin-bottom: 1.5em;
+}
+
+.titulo-audio-obra {
+    font-size: 2em;
+    margin: 0 auto;
+}
+
+.audio-obra audio {
+    padding: 0.5em;
+    width: 100%;
+    max-width: 300px;
+}
+
+/* Estilos responsivos para telas menores */
+@media (max-width: 768px) {
+    .container-informacoes-obra, .contexto-obra {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .caracteristicas-obra, .resumo-contexto-audio-obra {
+        width: 100%;
+    }
+
+    .section-informacoes-obra {
+        padding: 2em;
+    }
+
+    .titulo-section-informacoes {
+        text-align: center;
+    }
+
+    .geracao-obra {
+        text-align: center;
+    }
+
+    .audio-obra {
+        flex-direction: column;
+        gap: 1em;
+    }
+}
+
+/* SEÇÃO ASPECTOS LINGUÍSTICOS DA OBRA */
+.section-aspectos-linguisticos-obra {
+    background-color: #416308;
+    padding: 4em 10em;
+    box-sizing: border-box;
+    height: auto;
+}
+
+.titulo-section-aspectos-linguisticos {
+    color: #EDCBB0;
+    font-size: 3em;
+    text-align: left;
+    margin-bottom: 1em;
+}
+
+.container-aspectos-linguisticos-obra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+}
+
+.container-estrutura {
+    background-color: #B64012;
+    color: #EDCBB0;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 42px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 1em 2em;
+    margin-bottom: 1.5em;
+    text-align: justify;
+    display: flex;
+    justify-content: space-between;
+    gap: 1.2em;
+    align-items: center;
+}
+
+.texto-estrutura {
+    max-width: 400px;
+}
+
+.imagem-estrutura img {
+    max-width: 400px;
+    height: auto;
+    border-radius: 12px;
+    padding: 0.5em;
+}
+
+.aspectos-gerais {
+    background-color: #EDCBB0;
+    color: #3D0A0F;
+    width: 100%;
+    border-radius: 42px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 1em 2em;
+    margin-bottom: 1.5em;
+    text-align: justify;
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+.video-aspectos-obra {
+    text-align: center;
+    color: #EDCBB0;
+    margin-bottom: 1.5em;
+}
+
+/* Estilos responsivos para telas menores */
+@media (max-width: 768px) {
+    .container-aspectos-linguisticos-obra {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aspectos-gerais, .container-estrutura {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-aspectos-linguisticos-obra {
+        padding: 2em 1.5em;
+    }
+
+    .titulo-section-aspectos-linguisticos {
+        text-align: center;
+    }
+
+    .container-estrutura,
+    .aspectos-gerais {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 1em;
+        padding: 1em 1em;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .texto-estrutura,
+    .imagem-estrutura img {
+        max-width: 100%;
+        width: 100%;
+        min-width: 0;
+        padding: 1em;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+}
+
+/* Para telas muito pequenas */
+@media (max-width: 480px) {
+    .container-estrutura,
+    .aspectos-gerais {
+        padding: 1em;
+        gap: 0.5em;
+        border-radius: 10px;
+    }
+}
+
+.section-quiz-obra {
+    background-color: #E35219;
+    padding: 4em 10em;
+    box-sizing: border-box;
+    height: auto;
+}
+
+.titulo-quiz {
+    color: #3D0A0F;
+    font-size: 3em;
+    text-align: center;
+}

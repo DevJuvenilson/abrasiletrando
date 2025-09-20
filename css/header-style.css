@@ -133,9 +133,15 @@
     opacity: 0;
     visibility: hidden;
     transform: translateY(8px);
-    transition: opacity .18s ease, transform .18s ease, visibility .18s;
     pointer-events: none;
-    /* evita clique quando oculto */
+    transition: opacity .18s ease, transform .18s ease, visibility .18s;
+}
+
+#container-header .nav-dropdown-menu.show-dropdown {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    pointer-events: auto;
 }
 
 /* Limita a altura do dropdown e permite rolagem interna */
