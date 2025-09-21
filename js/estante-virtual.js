@@ -10,7 +10,7 @@ function renderObras(container, obras, qtd) {
         div.innerHTML = `
             <img src="${obra.capa_livro}" alt="Capa livro" class="capa-livro">
             <h4 class="titulo-cartao barlow-bold">${obra.titulo}</h4>
-            <p class="descricao-cartao barlow-regular">Escrito por ${obra.autor} em ${obra.ano}. ${obra.breve_descricao}</p>
+            <p class="descricao-cartao barlow-regular">Escrito por <b>${obra.autor}</b> em <b>${obra.ano}</b>. ${obra.breve_descricao}</p>
         `;
         container.appendChild(div);
     });

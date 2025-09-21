@@ -10,7 +10,7 @@ window.MOVIMENTOS_E_OBRAS = [
             {
                 id: 1,
                 nome_obra: "Ondas do Mar de Vigo",
-                foto_obra: "assets/img/obras/trovadorismo/ondas_do_mar_de_vigo.png",
+                foto_obra: "assets/img/obras/trovadorismo/capas/ondas_do_mar_de_vigo.png",
                 informacoes_basicas: {
                     autor: "Martim Codax",
                     ano: "Século XII",
@@ -27,15 +27,15 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Elementos da natureza, como o mar, são usados para refletir os sentimentos da personagem.",
                     "Musicalidade - as cantigas de Martim Codax vêm com notação musical no Pergaminho Vindel, permitindo que fossem cantadas."
                 ],
-                imagem_contexto_historico: "https://exemplo.com/contexto_trovadorismo.png",
-                imagem_estrutura_obra: "https://exemplo.com/estrutura_trovadorismo.png",
-                tempo_discurso_figuras_linguagem_e_linguagem_banner: "https://exemplo.com/banner_trovadorismo.png",
+                imagem_contexto_historico: "assets/img/contextos/contexto_trovadorismo.png",
+                imagem_estrutura_obra: "assets/img/estruturas/estrutura_trovadorismo.png",
+                tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_trovadorismo.png",
                 video_obra: "https://www.youtube.com/embed/abcd1234"
             },
             {
                 id: 2,
                 nome_obra: "Ai dona fea, fostes-vos queixar",
-                foto_obra: "assets/img/obras/trovadorismo/ai_dona_fea_fostes-vos_queixar.png",
+                foto_obra: "assets/img/obras/trovadorismo/capas/ai_dona_fea_fostes-vos_queixar.png",
                 informacoes_basicas: {
                     autor: "João Garcia de Guilhade",
                     ano: "Entre 1241 e 1270",
@@ -52,15 +52,15 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Refrão repetitivo: 'Dona fea, velha e sandia', reforçando o tom irônico.",
                     "Estrutura paralelística: repetição de ideias com pequenas variações, característica das cantigas de escárnio."
                 ],
-                imagem_contexto_historico: "https://exemplo.com/contexto_ai_dona_fea.png",
-                imagem_estrutura_obra: "https://exemplo.com/estrutura_ai_dona_fea.png",
-                tempo_discurso_figuras_linguagem_e_linguagem_banner: "https://exemplo.com/banner_ai_dona_fea.png",
+                imagem_contexto_historico: "assets/img/contextos/contexto_ai_dona_fea.png",
+                imagem_estrutura_obra: "assets/img/estruturas/estrutura_ai_dona_fea.png",
+                tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_ai_dona_fea.png",
                 video_obra: "https://www.youtube.com/embed/efgh5678"
             },
             {
                 id: 3,
                 nome_obra: "Amor, que por mim não guardas tino",
-                foto_obra: "assets/img/obras/trovadorismo/amor_que_por_mim_nao_guardas_tino.png",
+                foto_obra: "assets/img/obras/trovadorismo/capas/amor_que_por_mim_nao_guardas_tino.png",
                 informacoes_basicas: {
                     autor: "Dom Dinis I de Portugal",
                     ano: "Século XIII",
@@ -77,9 +77,9 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Diálogo entre a donzela e as flores, com repetição do refrão 'Ai Deus, e u é?'.",
                     "Refrão: Repetição do verso 'Ai Deus, e u é?' reforça a emoção e a musicalidade da cantiga."
                 ],
-                imagem_contexto_historico: "https://exemplo.com/contexto_amor_tino.png",
-                imagem_estrutura_obra: "https://exemplo.com/estrutura_amor_tino.png",
-                tempo_discurso_figuras_linguagem_e_linguagem_banner: "https://exemplo.com/banner_amor_tino.png",
+                imagem_contexto_historico: "assets/img/contextos/contexto_amor_tino.png",
+                imagem_estrutura_obra: "assets/img/estruturas/estrutura_amor_tino.png",
+                tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_amor_tino.png",
                 video_obra: "https://www.youtube.com/embed/ijkl9012"
             }
         ]
@@ -95,7 +95,7 @@ window.MOVIMENTOS_E_OBRAS = [
             {
                 id: 1,
                 nome_obra: "Crônica del Rei Dom João I",
-                foto_obra: "assets/img/obras/humanismo/cronica_del_rei_dom_joao_i.png",
+                foto_obra: "assets/img/obras/humanismo/capas/cronica_del_rei_dom_joao_i.png",
                 informacoes_basicas: {
                     autor: "Fernão Lopes",
                     ano: "Início do século XV",
@@ -112,15 +112,15 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Ordem cronológica dos acontecimentos",
                     "Intercalação de juízos morais e comentários do autor"
                 ],
-                imagem_contexto_historico: "https://exemplo.com/contexto_cronica_joao.png",
-                imagem_estrutura_obra: "https://exemplo.com/estrutura_cronica_joao.png",
-                tempo_discurso_figuras_linguagem_e_linguagem_banner: "https://exemplo.com/banner_cronica_joao.png",
+                imagem_contexto_historico: "assets/img/contextos/contexto_cronica_joao.png",
+                imagem_estrutura_obra: "assets/img/estruturas/estrutura_cronica_joao.png",
+                tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_cronica_joao.png",
                 video_obra: "https://www.youtube.com/embed/1234abcd"
             },
             {
                 id: 2,
                 nome_obra: "Auto da Barca do Inferno",
-                foto_obra: "assets/img/obras/humanismo/auto_da_barca_do_inferno.png",
+                foto_obra: "assets/img/obras/humanismo/capas/auto_da_barca_do_inferno.png",
                 informacoes_basicas: {
                     autor: "Gil Vicente",
                     ano: "1517",
@@ -137,15 +137,15 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Dividido em cenas curtas com entrada da Barca do Inferno e da Barca do Paraíso",
                     "Personagens simbólicos: fidalgo, judeu, frade, etc."
                 ],
-                imagem_contexto_historico: "https://exemplo.com/contexto_barca_inferno.png",
-                imagem_estrutura_obra: "https://exemplo.com/estrutura_barca_inferno.png",
-                tempo_discurso_figuras_linguagem_e_linguagem_banner: "https://exemplo.com/banner_barca_inferno.png",
+                imagem_contexto_historico: "assets/img/contextos/contexto_barca_inferno.png",
+                imagem_estrutura_obra: "assets/img/estruturas/estrutura_barca_inferno.png",
+                tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_barca_inferno.png",
                 video_obra: "https://www.youtube.com/embed/5678efgh"
             },
             {
                 id: 3,
                 nome_obra: "Cancioneiro Geral",
-                foto_obra: "assets/img/obras/humanismo/cancioneiro_geral.png",
+                foto_obra: "assets/img/obras/humanismo/capas/cancioneiro_geral.png",
                 informacoes_basicas: {
                     autor: "Garcia de Resende",
                     ano: "1516",
@@ -162,9 +162,9 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Versos metrificados, com predominância de cantigas de amor e sátira",
                     "Apresenta poesia de corte e popular"
                 ],
-                imagem_contexto_historico: "https://exemplo.com/contexto_cancioneiro_geral.png",
-                imagem_estrutura_obra: "https://exemplo.com/estrutura_cancioneiro_geral.png",
-                tempo_discurso_figuras_linguagem_e_linguagem_banner: "https://exemplo.com/banner_cancioneiro_geral.png",
+                imagem_contexto_historico: "assets/img/contextos/contexto_cancioneiro_geral.png",
+                imagem_estrutura_obra: "assets/img/estruturas/estrutura_cancioneiro_geral.png",
+                tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_cancioneiro_geral.png",
                 video_obra: "https://www.youtube.com/embed/9012ijkl"
             }
         ]
@@ -180,7 +180,7 @@ window.MOVIMENTOS_E_OBRAS = [
             {
                 id: 1,
                 nome_obra: "Amor é fogo que arde sem se ver",
-                foto_obra: "assets/img/obras/classicismo/amor_e_fogo_que_arde_sem_se_ver.png",
+                foto_obra: "assets/img/obras/classicismo/capas/amor_e_fogo_que_arde_sem_se_ver.png",
                 informacoes_basicas: {
                     autor: "Luís de Camões",
                     ano: "1598",
@@ -197,9 +197,57 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Versos decassílabos",
                     "Esquema rítmico ABBA ABBA CDC DCD"
                 ],
-                imagem_contexto_historico: "https://exemplo.com/contexto_classicismo.png",
-                imagem_estrutura_obra: "https://exemplo.com/estrutura_classicismo.png",
-                tempo_discurso_figuras_linguagem_e_linguagem_banner: "https://exemplo.com/banner_classicismo.png",
+                imagem_contexto_historico: "assets/img/contextos/contexto_classicismo.png",
+                imagem_estrutura_obra: "assets/img/estruturas/estrutura_soneto_amor.png",
+                tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_classicismo.png",
+                video_obra: "https://www.youtube.com/embed/classicismo123"
+            },
+            {
+                id: 2,
+                nome_obra: "Os Lusíadas",
+                foto_obra: "assets/img/obras/classicismo/capas/os_lusiadas.png",
+                informacoes_basicas: {
+                    autor: "Luís de Camões",
+                    ano: "1572",
+                    genero: "Poema épico"
+                },
+                contexto_historico: [
+                    "Portugal no auge das Grandes Navegações e das conquistas ultramarinas.",
+                    "Período do Renascimento em Portugal, marcado pelo Humanismo e pelo Classicismo.",
+                    "Exaltação do Império Português e legitimação política do rei D. Sebastião"
+                ],
+                resumo_obra: "A obra narra a viagem de Vasco da Gama às Índias, misturando fatos históricos com elementos mitológicos. A obra celebra os feitos marítimos de Portugal, mas também apresenta críticas à ambição e à corrupção, refletindo a grandeza e as contradições do projeto imperial português.",
+                estrutura_obra: [
+                    "Poema épico dividido em 10 cantos.",
+                    "Escrito em oitavas (estrofes de 8 versos decassílabos, com rimas ABABABCC)"
+                ],
+                imagem_contexto_historico: "assets/img/contextos/contexto_os_lusiadas.png",
+                imagem_estrutura_obra: "assets/img/estruturas/estrutura_os_lusiadas.png",
+                tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_os_lusiadas.png",
+                video_obra: "https://www.youtube.com/embed/classicismo123"
+            },
+            {
+                id: 3,
+                nome_obra: "Dom Quixote",
+                foto_obra: "assets/img/obras/classicismo/capas/dom_quixote.png",
+                informacoes_basicas: {
+                    autor: "Miguel de Cervantes",
+                    ano: "1605 (1ª parte) e 1615 (2ª parte)",
+                    genero: "Romance de cavalaria paródico/Romance moderno"
+                },
+                contexto_historico: [
+                    "Espanha do século XVII, período do Barroco e da decadência do Império Espanhol.",
+                    "Crise econômica, social e política após o auge das conquistas marítimas.",
+                    "Transformações literárias: crítica aos romances de cavalaria, já ultrapassados, e surgimento do romance moderno como gênero."
+                ],
+                resumo_obra: "A obra narra as aventuras de Dom Quixote, um fidalgo que enlouquece após ler muitos romances de cavalaria e decide se tornar cavaleiro andante. Ao lado de seu fiel escudeiro, Sancho Pança, vive situações cômicas e trágicas, confundindo fantasia e realidade. A obra é, ao mesmo tempo, uma sátira aos ideais “cavaleirescos” e uma reflexão sobre a condição humana.",
+                estrutura_obra: [
+                    "Romance dividido em duas partes (1605 e 1615).",
+                    "Mais de 100 capítulos ao todo."
+                ],
+                imagem_contexto_historico: "assets/img/contextos/contexto_dom_quixote.png",
+                imagem_estrutura_obra: "assets/img/estruturas/estrutura_dom_quixote.png",
+                tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_dom_quixote.png",
                 video_obra: "https://www.youtube.com/embed/classicismo123"
             }
         ]
@@ -215,7 +263,7 @@ window.MOVIMENTOS_E_OBRAS = [
             {
                 id: 1,
                 nome_obra: "Sermões",
-                foto_obra: "assets/img/obras/barroco/sermoes.png",
+                foto_obra: "assets/img/obras/barroco/capas/sermoes.png",
                 informacoes_basicas: {
                     autor: "Padre Antônio Vieira",
                     ano: "Séculos XVII - XVIII",
@@ -230,15 +278,15 @@ window.MOVIMENTOS_E_OBRAS = [
                 estrutura_obra: [
                     "Prosas argumentativas em sermões"
                 ],
-                imagem_contexto_historico: "https://exemplo.com/contexto_barroco.png",
-                imagem_estrutura_obra: "https://exemplo.com/estrutura_barroco.png",
-                tempo_discurso_figuras_linguagem_e_linguagem_banner: "https://exemplo.com/banner_barroco.png",
+                imagem_contexto_historico: "assets/img/contextos/contexto_barroco.png",
+                imagem_estrutura_obra: "assets/img/estruturas/estrutura_barroco.png",
+                tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_barroco.png",
                 video_obra: "https://www.youtube.com/embed/barroco123"
             },
             {
                 id: 2,
                 nome_obra: "Prosopopeia",
-                foto_obra: "assets/img/obras/barroco/prosopopeia.png",
+                foto_obra: "assets/img/obras/barroco/capas/prosopopeia.png",
                 informacoes_basicas: {
                     autor: "Bento Teixeira",
                     ano: "1601",
@@ -252,15 +300,15 @@ window.MOVIMENTOS_E_OBRAS = [
                 estrutura_obra: [
                     "Poema épico, versos decassílabos"
                 ],
-                imagem_contexto_historico: "https://exemplo.com/contexto_prosopopeia.png",
-                imagem_estrutura_obra: "https://exemplo.com/estrutura_prosopopeia.png",
-                tempo_discurso_figuras_linguagem_e_linguagem_banner: "https://exemplo.com/banner_prosopopeia.png",
+                imagem_contexto_historico: "assets/img/contextos/contexto_prosopopeia.png",
+                imagem_estrutura_obra: "assets/img/estruturas/estrutura_prosopopeia.png",
+                tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_prosopopeia.png",
                 video_obra: "https://www.youtube.com/embed/prosopopeia123"
             },
             {
                 id: 3,
                 nome_obra: "Obras Poéticas",
-                foto_obra: "assets/img/obras/barroco/obras_poeticas.png",
+                foto_obra: "assets/img/obras/barroco/capas/obras_poeticas.png",
                 informacoes_basicas: {
                     autor: "Gregório de Matos",
                     ano: "Século XVII",
@@ -274,9 +322,9 @@ window.MOVIMENTOS_E_OBRAS = [
                 estrutura_obra: [
                     "Versos líricos e satíricos, sonetos e redondilhas"
                 ],
-                imagem_contexto_historico: "https://exemplo.com/contexto_obras_poeticas.png",
-                imagem_estrutura_obra: "https://exemplo.com/estrutura_obras_poeticas.png",
-                tempo_discurso_figuras_linguagem_e_linguagem_banner: "https://exemplo.com/banner_obras_poeticas.png",
+                imagem_contexto_historico: "assets/img/contextos/contexto_obras_poeticas.png",
+                imagem_estrutura_obra: "assets/img/estruturas/estrutura_obras_poeticas.png",
+                tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_obras_poeticas.png",
                 video_obra: "https://www.youtube.com/embed/obraspoeticas123"
             }
         ]
@@ -292,7 +340,7 @@ window.MOVIMENTOS_E_OBRAS = [
             {
                 id: 1,
                 nome_obra: "Marília de Dirceu",
-                foto_obra: "assets/img/obras/arcadismo/marilia_de_dirceu.png",
+                foto_obra: "assets/img/obras/arcadismo/capas/marilia_de_dirceu.png",
                 informacoes_basicas: {
                     autor: "Tomás Antônio Gonzaga",
                     ano: "1792",
@@ -307,15 +355,15 @@ window.MOVIMENTOS_E_OBRAS = [
                 estrutura_obra: [
                     "80 liras e 13 sonetos divididos em 3 partes"
                 ],
-                imagem_contexto_historico: "https://exemplo.com/contexto_marilia.png",
-                imagem_estrutura_obra: "https://exemplo.com/estrutura_marilia.png",
-                tempo_discurso_figuras_linguagem_e_linguagem_banner: "https://exemplo.com/banner_marilia.png",
+                imagem_contexto_historico: "assets/img/contextos/contexto_marilia.png",
+                imagem_estrutura_obra: "assets/img/estruturas/estrutura_marilia.png",
+                tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_marilia.png",
                 video_obra: "https://www.youtube.com/embed/marilia123"
             },
             {
                 id: 2,
                 nome_obra: "Cartas Chilenas",
-                foto_obra: "assets/img/obras/arcadismo/cartas_chilenas.png",
+                foto_obra: "assets/img/obras/arcadismo/capas/cartas_chilenas.png",
                 informacoes_basicas: {
                     autor: "Tomás Antônio Gonzaga",
                     ano: "Final do século XVIII",
@@ -329,15 +377,15 @@ window.MOVIMENTOS_E_OBRAS = [
                 estrutura_obra: [
                     "13 cartas escritas por Tomás Antônio Gonzaga, através do pseudônimo Critilo"
                 ],
-                imagem_contexto_historico: "https://exemplo.com/contexto_cartas.png",
-                imagem_estrutura_obra: "https://exemplo.com/estrutura_cartas.png",
-                tempo_discurso_figuras_linguagem_e_linguagem_banner: "https://exemplo.com/banner_cartas.png",
+                imagem_contexto_historico: "assets/img/contextos/contexto_cartas.png",
+                imagem_estrutura_obra: "assets/img/estruturas/estrutura_cartas.png",
+                tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_cartas.png",
                 video_obra: "https://www.youtube.com/embed/cartas123"
             },
             {
                 id: 3,
                 nome_obra: "O Uraguai",
-                foto_obra: "assets/img/obras/arcadismo/o_uraguai.png",
+                foto_obra: "assets/img/obras/arcadismo/capas/o_uraguai.png",
                 informacoes_basicas: {
                     autor: "Basílio da Gama",
                     ano: "1769",
@@ -351,9 +399,9 @@ window.MOVIMENTOS_E_OBRAS = [
                 estrutura_obra: [
                     "Dividido em cinco cantos sem divisão em estrofes"
                 ],
-                imagem_contexto_historico: "https://exemplo.com/contexto_uraguai.png",
-                imagem_estrutura_obra: "https://exemplo.com/estrutura_uraguai.png",
-                tempo_discurso_figuras_linguagem_e_linguagem_banner: "https://exemplo.com/banner_uraguai.png",
+                imagem_contexto_historico: "assets/img/contextos/contexto_uraguai.png",
+                imagem_estrutura_obra: "assets/img/estruturas/estrutura_uraguai.png",
+                tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_uraguai.png",
                 video_obra: "https://www.youtube.com/embed/uraguai123"
             }
         ]
@@ -369,7 +417,7 @@ window.MOVIMENTOS_E_OBRAS = [
             {
                 id: 1,
                 nome_obra: "Iracema",
-                foto_obra: "assets/img/obras/romantismo/iracema.png",
+                foto_obra: "assets/img/obras/romantismo/capas/iracema.png",
                 geracao: "1ª GERAÇÃO ROMÂNTICA",
                 informacoes_basicas: {
                     autor: "José de Alencar",
@@ -387,15 +435,15 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Narrador em 3ª pessoa, onisciente.",
                     "Linguagem rica em descrições da natureza e do ambiente."
                 ],
-                imagem_contexto_historico: "https://s2.static.brasilescola.uol.com.br/be/2025/01/primeira-cruz-brasil.jpg",
-                imagem_estrutura_obra: "https://estrategia-prod-questoes.s3.amazonaws.com/images/F5A143CC-592B-6E22-8E49-3F094CEECE0E/F5A143CC-592B-6E22-8E49-3F094CEECE0E-400.png",
-                tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/image.png",
+                imagem_contexto_historico: "assets/img/contextos/contexto_iracema.png",
+                imagem_estrutura_obra: "assets/img/estruturas/estrutura_iracema.png",
+                tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_iracema.png",
                 video_obra: "https://www.youtube.com/embed/3e2b8kXW1yY"
             },
             {
                 id: 2,
                 nome_obra: "Noite na Taverna",
-                foto_obra: "assets/img/obras/romantismo/noite_na_taverna.png",
+                foto_obra: "assets/img/obras/romantismo/capas/noite_na_taverna.png",
                 geracao: "2ª GERAÇÃO ROMÂNTICA",
                 informacoes_basicas: {
                     autor: "Álvares de Azevedo",
@@ -410,21 +458,15 @@ window.MOVIMENTOS_E_OBRAS = [
                 estrutura_obra: [
                     "Narrativa-moldura dividida em 7 capítulos - prólogo, epílogo e 5 contos."
                 ],
-                tempo_obra: "Psicológico - sentimentos, angústias, obsessões e delírios dos narradores.",
-                discurso_obra: "Discurso direto em 1ª pessoa.",
-                figuras_de_linguagem: [
-                    "Hipérbole",
-                    "Metáfora",
-                    "Antítese"
-                ],
-                linguagem: [
-                    "Linguagem formal, dramática e pessimista."
-                ]
+                imagem_contexto_historico: "assets/img/contextos/contexto_noite_taverna.png",
+                imagem_estrutura_obra: "assets/img/estruturas/estrutura_noite_taverna.png",
+                tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_noite_taverna.png",
+                video_obra: "https://www.youtube.com/embed/3e2b8kXW1yY"
             },
             {
                 id: 3,
                 nome_obra: "O Navio Negreiro",
-                foto_obra: "assets/img/obras/romantismo/o_navio_negreiro.png",
+                foto_obra: "assets/img/obras/romantismo/capas/o_navio_negreiro.png",
                 geracao: "3ª GERAÇÃO ROMÂNTICA",
                 informacoes_basicas: {
                     autor: "Castro Alves",
@@ -439,17 +481,10 @@ window.MOVIMENTOS_E_OBRAS = [
                 estrutura_obra: [
                     "Poema épico dramático dividido em seis partes."
                 ],
-                tempo_obra: "Psicológico - emoções, sofrimento e indignação dos escravizados.",
-                discurso_obra: "Discurso lírico-narrativo, em 1ª pessoa.",
-                figuras_de_linguagem: [
-                    "Metáfora",
-                    "Comparação",
-                    "Personificação",
-                    "Anáfora"
-                ],
-                linguagem: [
-                    "Linguagem expressiva, poética e engajada (apontamento de denúncia social)."
-                ]
+                imagem_contexto_historico: "assets/img/contextos/contexto_navio_negreiro.png",
+                imagem_estrutura_obra: "assets/img/estruturas/estrutura_navio_negreiro.png",
+                tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_navio_negreiro.png",
+                video_obra: "https://www.youtube.com/embed/3e2b8kXW1yY"
             }
         ]
     },
@@ -464,7 +499,7 @@ window.MOVIMENTOS_E_OBRAS = [
             {
                 id: 1,
                 nome_obra: "Memórias Póstumas de Brás Cubas",
-                foto_obra: "assets/img/obras/realismo/memorias_postumas_de_bras_cubas.png",
+                foto_obra: "assets/img/obras/realismo/capas/memorias_postumas_de_bras_cubas.png",
                 informacoes_basicas: {
                     autor: "Machado de Assis",
                     ano: "1881",
@@ -482,15 +517,15 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Narrativa digressiva (interrupções, reflexões, apartes)",
                     "Quebra da linearidade tradicional"
                 ],
-                imagem_contexto_historico: "https://exemplo.com/contexto_memorias_postumas.png",
-                imagem_estrutura_obra: "https://exemplo.com/estrutura_memorias_postumas.png",
-                tempo_discurso_figuras_linguagem_e_linguagem_banner: "https://exemplo.com/banner_memorias_postumas.png",
+                imagem_contexto_historico: "assets/img/contextos/contexto_memorias_postumas.png",
+                imagem_estrutura_obra: "assets/img/estruturas/estrutura_memorias_postumas.png",
+                tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_memorias_postumas.png",
                 video_obra: "https://www.youtube.com/embed/memorias123"
             },
             {
                 id: 2,
                 nome_obra: "Dom Casmurro",
-                foto_obra: "assets/img/obras/realismo/dom_casmurro.png",
+                foto_obra: "assets/img/obras/realismo/capas/dom_casmurro.png",
                 informacoes_basicas: {
                     autor: "Machado de Assis",
                     ano: "1899",
@@ -507,15 +542,15 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Narrativa em primeira pessoa, subjetiva e parcial",
                     "Mistura entre relato de fatos e digressões pessoais"
                 ],
-                imagem_contexto_historico: "https://exemplo.com/contexto_dom_casmurro.png",
-                imagem_estrutura_obra: "https://exemplo.com/estrutura_dom_casmurro.png",
-                tempo_discurso_figuras_linguagem_e_linguagem_banner: "https://exemplo.com/banner_dom_casmurro.png",
+                imagem_contexto_historico: "assets/img/contextos/contexto_dom_casmurro.png",
+                imagem_estrutura_obra: "assets/img/estruturas/estrutura_dom_casmurro.png",
+                tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_dom_casmurro.png",
                 video_obra: "https://www.youtube.com/embed/casmurro123"
             },
             {
                 id: 3,
                 nome_obra: "O Ateneu",
-                foto_obra: "assets/img/obras/realismo/o_ateneu.png",
+                foto_obra: "assets/img/obras/realismo/capas/o_ateneu.png",
                 informacoes_basicas: {
                     autor: "Raul Pompeia",
                     ano: "1888",
@@ -533,9 +568,9 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Enredo linear, com episódios marcantes",
                     "Mistura de descrição detalhada e reflexão crítica"
                 ],
-                imagem_contexto_historico: "https://exemplo.com/contexto_o_ateneu.png",
-                imagem_estrutura_obra: "https://exemplo.com/estrutura_o_ateneu.png",
-                tempo_discurso_figuras_linguagem_e_linguagem_banner: "https://exemplo.com/banner_o_ateneu.png",
+                imagem_contexto_historico: "assets/img/contextos/contexto_o_ateneu.png",
+                imagem_estrutura_obra: "assets/img/estruturas/estrutura_o_ateneu.png",
+                tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_o_ateneu.png",
                 video_obra: "https://www.youtube.com/embed/ateneu123"
             }
         ]
@@ -551,7 +586,7 @@ window.MOVIMENTOS_E_OBRAS = [
             {
                 id: 1,
                 nome_obra: "O Cortiço",
-                foto_obra: "assets/img/obras/naturalismo/o_cortico.png",
+                foto_obra: "assets/img/obras/naturalismo/capas/o_cortico.png",
                 informacoes_basicas: {
                     autor: "Aluísio de Azevedo",
                     ano: "1890",
@@ -567,15 +602,15 @@ window.MOVIMENTOS_E_OBRAS = [
                 estrutura_obra: [
                     "Romance naturalista dividido em 23 capítulos."
                 ],
-                imagem_contexto_historico: "https://exemplo.com/contexto_o_cortico.png",
-                imagem_estrutura_obra: "https://exemplo.com/estrutura_o_cortico.png",
-                tempo_discurso_figuras_linguagem_e_linguagem_banner: "https://exemplo.com/banner_o_cortico.png",
+                imagem_contexto_historico: "assets/img/contextos/contexto_o_cortico.png",
+                imagem_estrutura_obra: "assets/img/estruturas/estrutura_o_cortico.png",
+                tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_o_cortico.png",
                 video_obra: "https://www.youtube.com/embed/cortico123"
             },
             {
                 id: 2,
                 nome_obra: "Memórias de Martha",
-                foto_obra: "assets/img/obras/naturalismo/memorias_de_martha.png",
+                foto_obra: "assets/img/obras/naturalismo/capas/memorias_de_martha.png",
                 informacoes_basicas: {
                     autor: "Julia Lopes de Almeida",
                     ano: "1899",
@@ -590,15 +625,15 @@ window.MOVIMENTOS_E_OBRAS = [
                 estrutura_obra: [
                     "Romance romântico em prosa, dividido em capítulos (forma de memória/confissão)."
                 ],
-                imagem_contexto_historico: "https://exemplo.com/contexto_memorias_martha.png",
-                imagem_estrutura_obra: "https://exemplo.com/estrutura_memorias_martha.png",
-                tempo_discurso_figuras_linguagem_e_linguagem_banner: "https://exemplo.com/banner_memorias_martha.png",
+                imagem_contexto_historico: "assets/img/contextos/contexto_memorias_martha.png",
+                imagem_estrutura_obra: "assets/img/estruturas/estrutura_memorias_martha.png",
+                tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_memorias_martha.png",
                 video_obra: "https://www.youtube.com/embed/memoriasmartha123"
             },
             {
                 id: 3,
                 nome_obra: "O Mulato",
-                foto_obra: "assets/img/obras/naturalismo/o_mulato.png",
+                foto_obra: "assets/img/obras/naturalismo/capas/o_mulato.png",
                 informacoes_basicas: {
                     autor: "Aluísio de Azevedo",
                     ano: "1881",
@@ -615,9 +650,9 @@ window.MOVIMENTOS_E_OBRAS = [
                 estrutura_obra: [
                     "Romance em prosa, dividido em capítulos, com foco descritivo e analítico."
                 ],
-                imagem_contexto_historico: "https://exemplo.com/contexto_o_mulato.png",
-                imagem_estrutura_obra: "https://exemplo.com/estrutura_o_mulato.png",
-                tempo_discurso_figuras_linguagem_e_linguagem_banner: "https://exemplo.com/banner_o_mulato.png",
+                imagem_contexto_historico: "assets/img/contextos/contexto_o_mulato.png",
+                imagem_estrutura_obra: "assets/img/estruturas/estrutura_o_mulato.png",
+                tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_o_mulato.png",
                 video_obra: "https://www.youtube.com/embed/omulato123"
             }
         ]
@@ -633,7 +668,7 @@ window.MOVIMENTOS_E_OBRAS = [
             {
                 id: 1,
                 nome_obra: "Missal",
-                foto_obra: "assets/img/obras/simbolismo/missal.png",
+                foto_obra: "assets/img/obras/simbolismo/capas/missal.png",
                 informacoes_basicas: {
                     autor: "Cruz e Sousa",
                     ano: "1893",
@@ -647,15 +682,15 @@ window.MOVIMENTOS_E_OBRAS = [
                 estrutura_obra: [
                     "Prosa poética, fragmentária."
                 ],
-                imagem_contexto_historico: "https://exemplo.com/contexto_missal.png",
-                imagem_estrutura_obra: "https://exemplo.com/estrutura_missal.png",
-                tempo_discurso_figuras_linguagem_e_linguagem_banner: "https://exemplo.com/banner_missal.png",
+                imagem_contexto_historico: "assets/img/contextos/contexto_missal.png",
+                imagem_estrutura_obra: "assets/img/estruturas/estrutura_missal.png",
+                tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_missal.png",
                 video_obra: "https://www.youtube.com/embed/missal123"
             },
             {
                 id: 2,
                 nome_obra: "Broquéis",
-                foto_obra: "assets/img/obras/simbolismo/broqueis.png",
+                foto_obra: "assets/img/obras/simbolismo/capas/broqueis.png",
                 informacoes_basicas: {
                     autor: "Cruz e Sousa",
                     ano: "1893",
@@ -669,15 +704,15 @@ window.MOVIMENTOS_E_OBRAS = [
                 estrutura_obra: [
                     "Versos livres ou metrificados e forte sonoridade."
                 ],
-                imagem_contexto_historico: "https://exemplo.com/contexto_broqueis.png",
-                imagem_estrutura_obra: "https://exemplo.com/estrutura_broqueis.png",
-                tempo_discurso_figuras_linguagem_e_linguagem_banner: "https://exemplo.com/banner_broqueis.png",
+                imagem_contexto_historico: "assets/img/contextos/contexto_broqueis.png",
+                imagem_estrutura_obra: "assets/img/estruturas/estrutura_broqueis.png",
+                tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_broqueis.png",
                 video_obra: "https://www.youtube.com/embed/broqueis123"
             },
             {
                 id: 3,
                 nome_obra: "As Flores do Mal",
-                foto_obra: "assets/img/obras/simbolismo/as_flores_do_mal.png",
+                foto_obra: "assets/img/obras/simbolismo/capas/as_flores_do_mal.png",
                 informacoes_basicas: {
                     autor: "Charles Baudelaire",
                     ano: "1857",
@@ -692,9 +727,9 @@ window.MOVIMENTOS_E_OBRAS = [
                 estrutura_obra: [
                     "Poemas metrificados e rimas elaboradas ou ricas."
                 ],
-                imagem_contexto_historico: "https://exemplo.com/contexto_flores_mal.png",
-                imagem_estrutura_obra: "https://exemplo.com/estrutura_flores_mal.png",
-                tempo_discurso_figuras_linguagem_e_linguagem_banner: "https://exemplo.com/banner_flores_mal.png",
+                imagem_contexto_historico: "assets/img/contextos/contexto_flores_mal.png",
+                imagem_estrutura_obra: "assets/img/estruturas/estrutura_flores_mal.png",
+                tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_flores_mal.png",
                 video_obra: "https://www.youtube.com/embed/floresdomal123"
             }
         ]
@@ -709,8 +744,8 @@ window.MOVIMENTOS_E_OBRAS = [
         obras: [
             {
                 id: 1,
-                nome_obra: "Poesias",
-                foto_obra: "assets/img/obras/parnasianismo/poesias.png",
+                nome_obra: "Poesias - Olavo Bilac",
+                foto_obra: "assets/img/obras/parnasianismo/capas/poesias.png",
                 informacoes_basicas: {
                     autor: "Olavo Bilac",
                     ano: "1888",
@@ -724,15 +759,15 @@ window.MOVIMENTOS_E_OBRAS = [
                 estrutura_obra: [
                     "Sonetos, versos decassílabos."
                 ],
-                imagem_contexto_historico: "https://exemplo.com/contexto_parnasianismo.png",
-                imagem_estrutura_obra: "https://exemplo.com/estrutura_parnasianismo.png",
-                tempo_discurso_figuras_linguagem_e_linguagem_banner: "https://exemplo.com/banner_parnasianismo.png",
+                imagem_contexto_historico: "assets/img/contextos/contexto_parnasianismo.png",
+                imagem_estrutura_obra: "assets/img/estruturas/estrutura_parnasianismo.png",
+                tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_parnasianismo.png",
                 video_obra: "https://www.youtube.com/embed/parnasianismo123"
             },
             {
                 id: 2,
-                nome_obra: "Poesias",
-                foto_obra: "assets/img/obras/parnasianismo/poesias_raimundo_correia.png",
+                nome_obra: "Poesias - Raimundo Correia",
+                foto_obra: "assets/img/obras/parnasianismo/capas/poesias_raimundo_correia.png",
                 informacoes_basicas: {
                     autor: "Raimundo Correia",
                     ano: "1883",
@@ -746,15 +781,15 @@ window.MOVIMENTOS_E_OBRAS = [
                 estrutura_obra: [
                     "Poemas metrificados e sonetos."
                 ],
-                imagem_contexto_historico: "https://exemplo.com/contexto_raimundo_correia.png",
-                imagem_estrutura_obra: "https://exemplo.com/estrutura_raimundo_correia.png",
-                tempo_discurso_figuras_linguagem_e_linguagem_banner: "https://exemplo.com/banner_raimundo_correia.png",
+                imagem_contexto_historico: "assets/img/contextos/contexto_raimundo_correia.png",
+                imagem_estrutura_obra: "assets/img/estruturas/estrutura_raimundo_correia.png",
+                tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_raimundo_correia.png",
                 video_obra: "https://www.youtube.com/embed/raimundo123"
             },
             {
                 id: 3,
-                nome_obra: "Poesias",
-                foto_obra: "assets/img/obras/parnasianismo/poesias_alberto_de_oliveira.png",
+                nome_obra: "Poesias - Alberto de Oliveira",
+                foto_obra: "assets/img/obras/parnasianismo/capas/poesias_alberto_de_oliveira.png",
                 informacoes_basicas: {
                     autor: "Alberto de Oliveira",
                     ano: "1885",
@@ -768,9 +803,9 @@ window.MOVIMENTOS_E_OBRAS = [
                 estrutura_obra: [
                     "Sonetos e poemas descritivos."
                 ],
-                imagem_contexto_historico: "https://exemplo.com/contexto_alberto_de_oliveira.png",
-                imagem_estrutura_obra: "https://exemplo.com/estrutura_alberto_de_oliveira.png",
-                tempo_discurso_figuras_linguagem_e_linguagem_banner: "https://exemplo.com/banner_alberto_de_oliveira.png",
+                imagem_contexto_historico: "assets/img/contextos/contexto_alberto_de_oliveira.png",
+                imagem_estrutura_obra: "assets/img/estruturas/estrutura_alberto_de_oliveira.png",
+                tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_alberto_de_oliveira.png",
                 video_obra: "https://www.youtube.com/embed/alberto123"
             }
         ]
@@ -786,7 +821,7 @@ window.MOVIMENTOS_E_OBRAS = [
             {
                 id: 1,
                 nome_obra: "O Triste Fim de Policarpo Quaresma",
-                foto_obra: "assets/img/obras/pre_modernismo/o_triste_fim_de_policarpo_quaresma.png",
+                foto_obra: "assets/img/obras/pre_modernismo/capas/o_triste_fim_de_policarpo_quaresma.png",
                 informacoes_basicas: {
                     autor: "Lima Barreto",
                     ano: "1915",
@@ -800,15 +835,15 @@ window.MOVIMENTOS_E_OBRAS = [
                 estrutura_obra: [
                     "Romance em capítulos."
                 ],
-                imagem_contexto_historico: "https://exemplo.com/contexto_policarpo_quaresma.png",
-                imagem_estrutura_obra: "https://exemplo.com/estrutura_policarpo_quaresma.png",
-                tempo_discurso_figuras_linguagem_e_linguagem_banner: "https://exemplo.com/banner_policarpo_quaresma.png",
+                imagem_contexto_historico: "assets/img/contextos/contexto_policarpo_quaresma.png",
+                imagem_estrutura_obra: "assets/img/estruturas/estrutura_policarpo_quaresma.png",
+                tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_policarpo_quaresma.png",
                 video_obra: "https://www.youtube.com/embed/policarpo123"
             },
             {
                 id: 2,
                 nome_obra: "Os Sertões",
-                foto_obra: "assets/img/obras/pre_modernismo/os_sertoes.png",
+                foto_obra: "assets/img/obras/pre_modernismo/capas/os_sertoes.png",
                 informacoes_basicas: {
                     autor: "Euclides da Cunha",
                     ano: "1902",
@@ -822,15 +857,15 @@ window.MOVIMENTOS_E_OBRAS = [
                 estrutura_obra: [
                     "Prosa ensaística e narrativa histórica."
                 ],
-                imagem_contexto_historico: "https://exemplo.com/contexto_os_sertoes.png",
-                imagem_estrutura_obra: "https://exemplo.com/estrutura_os_sertoes.png",
-                tempo_discurso_figuras_linguagem_e_linguagem_banner: "https://exemplo.com/banner_os_sertoes.png",
+                imagem_contexto_historico: "assets/img/contextos/contexto_os_sertoes.png",
+                imagem_estrutura_obra: "assets/img/estruturas/estrutura_os_sertoes.png",
+                tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_os_sertoes.png",
                 video_obra: "https://www.youtube.com/embed/sertoes123"
             },
             {
                 id: 3,
                 nome_obra: "Urupês",
-                foto_obra: "assets/img/obras/pre_modernismo/urupes.png",
+                foto_obra: "assets/img/obras/pre_modernismo/capas/urupes.png",
                 informacoes_basicas: {
                     autor: "Monteiro Lobato",
                     ano: "1918",
@@ -844,9 +879,9 @@ window.MOVIMENTOS_E_OBRAS = [
                 estrutura_obra: [
                     "Contos independentes."
                 ],
-                imagem_contexto_historico: "https://exemplo.com/contexto_urupes.png",
-                imagem_estrutura_obra: "https://exemplo.com/estrutura_urupes.png",
-                tempo_discurso_figuras_linguagem_e_linguagem_banner: "https://exemplo.com/banner_urupes.png",
+                imagem_contexto_historico: "assets/img/contextos/contexto_urupes.png",
+                imagem_estrutura_obra: "assets/img/estruturas/estrutura_urupes.png",
+                tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_urupes.png",
                 video_obra: "https://www.youtube.com/embed/urupes123"
             }
         ]
@@ -862,7 +897,7 @@ window.MOVIMENTOS_E_OBRAS = [
             {
                 id: 1,
                 nome_obra: "Macunaíma, o herói sem nenhum caráter",
-                foto_obra: "assets/img/obras/modernismo/macunaima.png",
+                foto_obra: "assets/img/obras/modernismo/capas/macunaima.png",
                 geracao: "1ª GERAÇÃO MODERNISTA",
                 informacoes_basicas: {
                     autor: "Mário de Andrade",
@@ -880,15 +915,15 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Dividido em 17 capítulos.",
                     "Prosa narrativa com forte influência oral e popular."
                 ],
-                imagem_contexto_historico: "https://exemplo.com/contexto_macunaima.png",
-                imagem_estrutura_obra: "https://exemplo.com/estrutura_macunaima.png",
-                tempo_discurso_figuras_linguagem_e_linguagem_banner: "https://exemplo.com/banner_macunaima.png",
+                imagem_contexto_historico: "assets/img/contextos/contexto_macunaima.png",
+                imagem_estrutura_obra: "assets/img/estruturas/estrutura_macunaima.png",
+                tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_macunaima.png",
                 video_obra: "https://www.youtube.com/embed/macunaima123"
             },
             {
                 id: 2,
                 nome_obra: "Vidas Secas",
-                foto_obra: "assets/img/obras/modernismo/vidas_secas.png",
+                foto_obra: "assets/img/obras/modernismo/capas/vidas_secas.png",
                 geracao: "2ª GERAÇÃO MODERNISTA",
                 informacoes_basicas: {
                     autor: "Graciliano Ramos",
@@ -906,15 +941,15 @@ window.MOVIMENTOS_E_OBRAS = [
                     "13 capítulos independentes (podem ser lidos isoladamente).",
                     "Narrativa não totalmente linear, com idas e vindas."
                 ],
-                imagem_contexto_historico: "https://exemplo.com/contexto_vidas_secas.png",
-                imagem_estrutura_obra: "https://exemplo.com/estrutura_vidas_secas.png",
-                tempo_discurso_figuras_linguagem_e_linguagem_banner: "https://exemplo.com/banner_vidas_secas.png",
+                imagem_contexto_historico: "assets/img/contextos/contexto_vidas_secas.png",
+                imagem_estrutura_obra: "assets/img/estruturas/estrutura_vidas_secas.png",
+                tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_vidas_secas.png",
                 video_obra: "https://www.youtube.com/embed/vidassecas123"
             },
             {
                 id: 3,
                 nome_obra: "As Meninas",
-                foto_obra: "assets/img/obras/modernismo/as_meninas.png",
+                foto_obra: "assets/img/obras/modernismo/capas/as_meninas.png",
                 geracao: "3ª GERAÇÃO MODERNISTA",
                 informacoes_basicas: {
                     autor: "Lygia Fagundes Telles",
@@ -931,9 +966,9 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Narrativa fragmentada, múltiplos pontos de vista.",
                     "Alternância entre monólogos interiores e diálogos."
                 ],
-                imagem_contexto_historico: "https://exemplo.com/contexto_as_meninas.png",
-                imagem_estrutura_obra: "https://exemplo.com/estrutura_as_meninas.png",
-                tempo_discurso_figuras_linguagem_e_linguagem_banner: "https://exemplo.com/banner_as_meninas.png",
+                imagem_contexto_historico: "assets/img/contextos/contexto_as_meninas.png",
+                imagem_estrutura_obra: "assets/img/estruturas/estrutura_as_meninas.png",
+                tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_as_meninas.png",
                 video_obra: "https://www.youtube.com/embed/asmeninas123"
             }
         ]
