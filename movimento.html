@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title class="nome_pagina"></title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
@@ -31,13 +31,76 @@
             margin-top: 0;
             box-sizing: border-box;
         }
+
+        .navegacao-obras {
+            background-color: #688F25;
+            width: 100%;
+            padding: 1em 8em;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .primeiro-link-obra,
+        .segundo-link-obra,
+        .terceiro-link-obra {
+            padding: 0;
+            margin: 0 1em;
+            color: #FFF;
+            text-decoration: none;
+            font-size: 1.2em;
+            position: relative;
+            transition: color 0.2s;
+        }
+
+        .navegacao-obras a::after {
+            color: #FFF;
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: -2px;
+            width: 0;
+            height: 2px;
+            background: #3D0A0F;
+            transition: width 0.3s;
+        }
+
+        .navegacao-obras a:hover {
+            color: #FFF;
+            cursor: pointer;
+        }
+
+        .navegacao-obras a:hover::after {
+            color: #FFF;
+            width: 100%;
+        }
+
+        @media (max-width: 768px) {
+            .navegacao-obras {
+                flex-direction: column;
+                padding: 2em 1em;
+            }
+
+            .primeiro-link-obra,
+            .segundo-link-obra,
+            .terceiro-link-obra {
+                padding: 0;
+                margin: 0 1em;
+                color: #FFF;
+                text-decoration: underline;
+                font-size: 1.2em;
+                position: relative;
+                transition: color 0.2s;
+            }
+        }
     </style>
 </head>
 
 <body>
 
-    <!-- <script src="db_obras.js"></script>
-    <script src="js/movimento.js"></script> -->
+    <script src="db_obras.js"></script>
+    <script src="js/movimento.js"></script>
 
     <header>
         <nav class="navbar navbar-expand-lg">
@@ -58,18 +121,18 @@
                         <li class="nav-item nav-dropdown">
                             <a class="barlow-regular">MOVIMENTOS &#9662;</a>
                             <ul class="nav-dropdown-menu">
-                                <li><a href="movimento.html?id=1">Trovadorismo</a></li>
-                                <li><a href="movimento.html?id=2">Humanismo</a></li>
-                                <li><a href="movimento.html?id=3">Classicismo</a></li>
-                                <li><a href="movimento.html?id=4">Barroco</a></li>
-                                <li><a href="movimento.html?id=5">Arcadismo</a></li>
-                                <li><a href="movimento.html?id=6">Romantismo</a></li>
-                                <li><a href="movimento.html?id=7">Realismo</a></li>
-                                <li><a href="movimento.html?id=8">Naturalismo</a></li>
-                                <li><a href="movimento.html?id=9">Simbolismo</a></li>
-                                <li><a href="movimento.html?id=10">Parnasianismo</a></li>
-                                <li><a href="movimento.html?id=11">Pré-modernismo</a></li>
-                                <li><a href="movimento.html?id=12">Modernismo</a></li>
+                                <li><a href="movimento.html?id=1&obra=1">Trovadorismo</a></li>
+                                <li><a href="movimento.html?id=2&obra=1">Humanismo</a></li>
+                                <li><a href="movimento.html?id=3&obra=1">Classicismo</a></li>
+                                <li><a href="movimento.html?id=4&obra=1">Barroco</a></li>
+                                <li><a href="movimento.html?id=5&obra=1">Arcadismo</a></li>
+                                <li><a href="movimento.html?id=6&obra=1">Romantismo</a></li>
+                                <li><a href="movimento.html?id=7&obra=1">Realismo</a></li>
+                                <li><a href="movimento.html?id=8&obra=1">Naturalismo</a></li>
+                                <li><a href="movimento.html?id=9&obra=1">Simbolismo</a></li>
+                                <li><a href="movimento.html?id=10&obra=1">Parnasianismo</a></li>
+                                <li><a href="movimento.html?id=11&obra=1">Pré-modernismo</a></li>
+                                <li><a href="movimento.html?id=12&obra=1">Modernismo</a></li>
                             </ul>
                         </li>
                         <li class="nav-item"><a href="estante-virtual.html" class="barlow-regular">ESTANTE VIRTUAL</a>
@@ -81,101 +144,21 @@
     </header>
 
     <section class="container-movimento">
-        <h1 class="titulo-movimento abril-fatface">ROMANTISMO</h1>
-        <p class="descricao-movimento">O Romantismo é um movimento literário que surgiu no final do século XVIII e se estendeu pelo século XIX, caracterizado pela valorização da emoção, da imaginação e da individualidade. No Brasil, o Romantismo teve um papel importante na construção da identidade nacional, explorando temas como a natureza, o indígena, o passado histórico e a exaltação do amor. A linguagem é marcada pela subjetividade, pelo uso de figuras de linguagem e por uma estética que busca o belo e o sublime.</p>
+        <h1 class="titulo-movimento abril-fatface"></h1>
+        <p class="descricao-movimento"></p>
     </section>
 
-    <section class="section-informacoes-obra">
-        <h2 class="titulo-section-informacoes abril-fatface">Iracema</h2>
-        <p class="geracao-obra barlow-medium">1ª GERAÇÃO ROMÂNTICA</p>
-        <div class="container-informacoes-obra">
-            <div class="caracteristicas-obra">
-                <div class="capa-retangulo">
-                    <img src="assets/img/obras/romantismo/iracema.png" alt="Capa do livro Iracema">
-                </div>
-                <div class="informacoes-basicas-obra">
-                    <h3 class="titulo-informacoes-obra barlow-extrabold">INFORMAÇÕES BÁSICAS</h3>
-                    <p class="autor-obra barlow-bold">Autor: José de Alencar</p>
-                    <p class="ano-obra barlow-bold">Ano: 1865</p>
-                    <p class="genero-obra barlow-bold">Gênero literário: Romance indianista</p>
-                </div>
-            </div>
-            <div class="resumo-contexto-audio-obra">
-                <div class="resumo-obra">
-                    <h3 class="titulo-resumo-obra barlow-extrabold">RESUMO DA OBRA</h3>
-                    <p class="texto-resumo-obra barlow-regular">Iracema conta a história de amor entre a índia Iracema e
-                        o colonizador português Martim. A narrativa se passa no Ceará e explora temas como a pureza da
-                        natureza, o encontro entre culturas e a formação da identidade brasileira. Iracema é retratada
-                        como uma figura idealizada, simbolizando a terra e a cultura indígena, enquanto Martim representa
-                        a civilização europeia. O romance aborda também o conflito entre o amor e o dever, culminando na
-                        tragédia que sela o destino dos protagonistas.</p>
-                </div>
-                <div class="contexto-obra">
-                    <div class="texto-contexto-obra">
-                        <h3 class="titulo-contexto-obra barlow-extrabold">CONTEXTO</h3>
-                        <ul class="lista-contexto-obra">
-                            <li class="item-contexto-obra barlow-regular">Colonização do Brasil</li>
-                            <li class="item-contexto-obra barlow-regular">Formação da nação brasileira - 1ª geração</li>
-                            <li class="item-contexto-obra barlow-regular">Valorização do indígena e da natureza</li>
-                            <li class="item-contexto-obra barlow-regular">Romantismo europeu</li>
-                            <li class="item-contexto-obra barlow-regular">Nacionalismo e exaltação do Brasil</li>
-                        </ul>
-                    </div>
-                    <div class="imagem-contexto-obra">
-                        <img src="https://s2.static.brasilescola.uol.com.br/be/2025/01/primeira-cruz-brasil.jpg"
-                            alt="Foto da chegada de Portugal ao Brasil">
-                    </div>
-                </div>
-                <div class="audio-obra">
-                    <h3 class="titulo-audio-obra barlow-extrabold">OUÇA A TRANSCRIÇÃO!</h3>
-                    <audio controls>
-                        <source src="assets/audios/iracema.mp3" type="audio/mpeg">
-                        Seu navegador não suporta o elemento de áudio.
-                    </audio>
-                </div>
-            </div>
-        </div>
-    </section>
+    <nav id="obra" class="navegacao-obras">
+        <a class="primeiro-link-obra barlow-regular" href=""></a>
+        <a class="segundo-link-obra barlow-regular" href=""></a>
+        <a class="terceiro-link-obra barlow-regular" href=""></a>
+    </nav>
 
-    <section class="section-aspectos-linguisticos-obra">
-        <h2 class="titulo-section-aspectos-linguisticos abril-fatface">Aspectos linguísticos</h2>
-        <div class="container-aspectos-linguisticos-obra">
-            <div class="aspectos-linguisticos-obra">
-                <div class="container-estrutura">
-                    <div class="texto-estrutura">
-                        <h3 class="titulo-estrutura barlow-extrabold">ESTRUTURA</h3>
-                        <ul class="lista-estrutura">
-                            <li class="item-estrutura barlow-regular">Narrativa em prosa dividida em capítulos.</li>
-                            <li class="item-estrutura barlow-regular">Uso de descrições detalhadas da natureza e do ambiente
-                                indígena.</li>
-                            <li class="item-estrutura barlow-regular">Diálogos entre personagens que revelam suas emoções e
-                                pensamentos.</li>
-                        </ul>
-                    </div>
-                    <div class="imagem-estrutura">
-                        <img src="https://estrategia-prod-questoes.s3.amazonaws.com/images/F5A143CC-592B-6E22-8E49-3F094CEECE0E/F5A143CC-592B-6E22-8E49-3F094CEECE0E-400.png"
-                            alt="Trecho do livro Iracema">
-                    </div>
-                </div>
-                <div class="aspectos-gerais">
-                    <img src="assets/img/image.png" alt="Tempo, discurso, figuras de linguagem e linguagem da obra.">
-                </div>
-            </div>
-            <div class="video-aspectos-obra">
-                <h3 class="titulo-video-explicativo barlow-extrabold">VÍDEO EXPLICATIVO</h3>
-                <video controls>
-                    <!-- LINK YOUTUBE -->
-                    <source src="https://www.youtube.com/embed/3e2b8kXW1yY" type="video/mp4">
-                    Seu navegador não suporta o elemento de vídeo.
-                </video>
-            </div>
-        </div>
-    </section>
+    <section class="section-informacoes-obra"></section>
 
-    <section class="section-quiz-obra">
-        <h2 class="titulo-quiz abril-fatface">Teste agora seus conhecimentos!</h2>
-        
-    </section>
+    <section class="section-aspectos-linguisticos-obra"></section>
+
+    <section class="section-quiz-obra"></section>
 
     <footer>
         <div class="container-footer">

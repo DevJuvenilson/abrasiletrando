@@ -389,7 +389,7 @@ window.MOVIMENTOS_E_OBRAS = [
                 ],
                 imagem_contexto_historico: "https://s2.static.brasilescola.uol.com.br/be/2025/01/primeira-cruz-brasil.jpg",
                 imagem_estrutura_obra: "https://estrategia-prod-questoes.s3.amazonaws.com/images/F5A143CC-592B-6E22-8E49-3F094CEECE0E/F5A143CC-592B-6E22-8E49-3F094CEECE0E-400.png",
-                tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/romantismo_estrutura_banner.png",
+                tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/image.png",
                 video_obra: "https://www.youtube.com/embed/3e2b8kXW1yY"
             },
             {

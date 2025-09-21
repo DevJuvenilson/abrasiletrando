@@ -66,13 +66,14 @@ body {
 
 .container-informacoes-obra {
     display: flex;
-    gap: 4em;
     justify-content: space-between;
     align-items: center;
+    /* ajuda em telas médias */
 }
 
 .caracteristicas-obra {
     text-align: center;
+    width: 36%;
 }
 
 .capa-retangulo {
@@ -102,7 +103,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     padding: 1em 2em;
     /* Adicione esta linha para espaçamento interno */
-    margin: 0 auto;
+    margin: 1em auto;
     /* Centraliza se desejar */
 }
 
@@ -122,6 +123,7 @@ body {
 }
 
 .resumo-contexto-audio-obra {
+    width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -135,6 +137,10 @@ body {
     padding: 1em 2em;
     margin-bottom: 1.5em;
     text-align: justify;
+}
+
+.resumo-obra h3{
+    text-align: left;
 }
 
 .titulo-resumo-obra,
@@ -272,8 +278,10 @@ body {
 
 /* Vídeo responsivo */
 .video-aspectos-obra video {
-    width: 70%;       /* ocupa 70% da coluna */
-    max-width: 320px; /* limite de largura */
+    width: 70%;
+    /* ocupa 70% da coluna */
+    max-width: 320px;
+    /* limite de largura */
     height: auto;
     aspect-ratio: 9/16;
     margin: 0 auto;
