@@ -100,8 +100,10 @@ body {
     border-radius: 42px;
     height: fit-content;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    padding: 1em 2em; /* Adicione esta linha para espaçamento interno */
-    margin: 0 auto;    /* Centraliza se desejar */
+    padding: 1em 2em;
+    /* Adicione esta linha para espaçamento interno */
+    margin: 0 auto;
+    /* Centraliza se desejar */
 }
 
 .titulo-informacoes-obra {
@@ -111,7 +113,9 @@ body {
     margin: 0;
 }
 
-.autor-obra, .ano-obra, .genero-obra {
+.autor-obra,
+.ano-obra,
+.genero-obra {
     color: #3D0A0F;
     font-size: 1.2em;
     margin-bottom: 0.5em;
@@ -133,12 +137,17 @@ body {
     text-align: justify;
 }
 
-.titulo-resumo-obra, .titulo-contexto-obra, .titulo-estrutura, .titulos-aspectos-gerais {
+.titulo-resumo-obra,
+.titulo-contexto-obra,
+.titulo-estrutura,
+.titulos-aspectos-gerais {
     font-size: 2em;
     margin-bottom: 0.5em;
 }
 
-.texto-resumo-obra, .texto-contexto-obra, .lista-estrutura {
+.texto-resumo-obra,
+.texto-contexto-obra,
+.lista-estrutura {
     font-size: 1.2em;
     line-height: 1.6;
 }
@@ -168,7 +177,7 @@ body {
     border-radius: 12px;
 }
 
-.audio-obra{
+.audio-obra {
     text-align: center;
     display: flex;
     flex-direction: row;
@@ -195,13 +204,16 @@ body {
 
 /* Estilos responsivos para telas menores */
 @media (max-width: 768px) {
-    .container-informacoes-obra, .contexto-obra {
+
+    .container-informacoes-obra,
+    .contexto-obra {
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
 
-    .caracteristicas-obra, .resumo-contexto-audio-obra {
+    .caracteristicas-obra,
+    .resumo-contexto-audio-obra {
         width: 100%;
     }
 
@@ -273,17 +285,22 @@ body {
 }
 
 .aspectos-gerais {
-    background-color: #EDCBB0;
-    color: #3D0A0F;
     width: 100%;
     border-radius: 42px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    padding: 1em 2em;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+    /* padding: 1em 2em; */
     margin-bottom: 1.5em;
-    text-align: left;
-    display: flex;
-    justify-content: space-between;
-    gap: 2em;
+    text-align: center;
+    /* display: flex; */
+    /* justify-content: space-between;
+    gap: 2em; */
+}
+
+.aspectos-gerais img {
+    max-width: 880px;
+    height: auto;
+    border-radius: 24px;
+    padding: 0.1em;
 }
 
 .video-aspectos-obra {
@@ -299,7 +316,8 @@ body {
         align-items: center;
     }
 
-    .aspectos-gerais, .container-estrutura {
+    .aspectos-gerais,
+    .container-estrutura {
         flex-direction: column;
         align-items: center;
     }
@@ -331,15 +349,46 @@ body {
         margin: 0 auto;
         box-sizing: border-box;
     }
+
+    .aspectos-gerais {
+        width: 100%;
+        border-radius: 42px;
+        margin-bottom: 1.5em;
+        text-align: center;
+    }
+
+    .aspectos-gerais img {
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+        padding: 0.5em;
+        box-sizing: border-box;
+    }
 }
 
 /* Para telas muito pequenas */
 @media (max-width: 480px) {
-    .container-estrutura,
-    .aspectos-gerais {
+
+    .container-estrutura {
         padding: 1em;
         gap: 0.5em;
         border-radius: 10px;
+    }
+
+    .aspectos-gerais {
+        width: 100%;
+        border-radius: 42px;
+        margin-bottom: 1.5em;
+        padding: 0.1em;
+        text-align: center;
+    }
+
+    .aspectos-gerais img {
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+        padding: 0.1em;
+        box-sizing: border-box;
     }
 }
 
