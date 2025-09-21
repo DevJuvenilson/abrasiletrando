@@ -23,9 +23,7 @@ function setupVerMais(sectionSelector, obras) {
     let mostrandoTudo = false;
     let scrollAntes = 0; // Para guardar a posição de rolagem
     const PRINCIPAIS = 3;
-
-    console.log(obras);
-
+    
     function atualizar() {
         if (mostrandoTudo) {
             renderObras(container, obras);
