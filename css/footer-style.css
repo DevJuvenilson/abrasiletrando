@@ -36,6 +36,12 @@ footer {
     margin: 2em;
 }
 
+.direitos {
+    font-size: 1.2em;
+    text-align: center;
+    margin: 1em 0;
+}
+
 @media (max-width: 768px) {
     footer {
         padding: 4em 2em 2em 2em;
@@ -58,10 +64,10 @@ footer {
         width: 160px;
         height: 160px;
     }
-}
 
-.direitos {
-    font-size: 1.2em;
-    text-align: center;
-    margin: 1em 0;
+    .direitos {
+        font-size: 0.7em;
+        text-align: center;
+        margin: 1em 0;
+    }
 }

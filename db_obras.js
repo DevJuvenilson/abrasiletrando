@@ -383,10 +383,12 @@ window.MOVIMENTOS_E_OBRAS = [
                 
                 resumo_obra: "Iracema conta a história de amor entre a índia Iracema e o português Martim, simbolizando a fusão entre indígenas e colonizadores e a formação do povo brasileiro, na figura do 1º cearense.",
                 estrutura_obra: [
-                    "Narrativa em prosa, dividida em 33 capítulos."
+                    "Narrativa em prosa, dividida em 33 capítulos.",
+                    "Narrador em 3ª pessoa, onisciente.",
+                    "Linguagem rica em descrições da natureza e do ambiente."
                 ],
                 imagem_contexto_historico: "https://s2.static.brasilescola.uol.com.br/be/2025/01/primeira-cruz-brasil.jpg",
-                imagem_estrutura_obra: "https://www.infoescola.com/wp-content/uploads/2011/11/iracema.jpg",
+                imagem_estrutura_obra: "https://estrategia-prod-questoes.s3.amazonaws.com/images/F5A143CC-592B-6E22-8E49-3F094CEECE0E/F5A143CC-592B-6E22-8E49-3F094CEECE0E-400.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/romantismo_estrutura_banner.png",
                 video_obra: "https://www.youtube.com/embed/3e2b8kXW1yY"
             },

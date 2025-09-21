@@ -73,35 +73,36 @@ function preencherPaginaMovimento(movimento) {
 
     // Limpa e preenche a seção de aspectos linguísticos
     const sectionAspectos = document.querySelector('.section-aspectos-linguisticos-obra');
-    sectionAspectos.innerHTML = '';
-    movimento.obras.forEach(obra => {
-        const div = document.createElement('div');
-        div.className = 'container-aspectos-linguisticos-obra';
-        div.innerHTML = `
-            <h2 class="titulo-section-aspectos-linguisticos abril-fatface">Aspectos linguísticos</h2>
-            <div class="aspectos-linguisticos-obra">
-                <div class="container-estrutura">
-                    <div class="texto-estrutura">
-                        <h3 class="titulo-estrutura barlow-extrabold">ESTRUTURA</h3>
-                        <ul class="lista-estrutura">
-                            ${obra.estrutura_obra.map(item => `<li class="item-estrutura barlow-regular">${item}</li>`).join('')}
-                        </ul>
-                    </div>
-                    <div class="imagem-estrutura">
-                        <img src="${obra.imagem_estrutura_obra}" alt="Imagem estrutura">
-                    </div>
+    sectionAspectos.innerHTML = `
+        <h2 class="titulo-section-aspectos-linguisticos abril-fatface">Aspectos linguísticos</h2>
+    `;
+
+    const obra = movimento.obras[0];
+    const div = document.createElement('div');
+    div.className = 'container-aspectos-linguisticos-obra';
+    div.innerHTML = `
+        <div class="aspectos-linguisticos-obra">
+            <div class="container-estrutura">
+                <div class="texto-estrutura">
+                    <h3 class="titulo-estrutura barlow-extrabold">ESTRUTURA</h3>
+                    <ul class="lista-estrutura">
+                        ${obra.estrutura_obra.map(item => `<li class="item-estrutura barlow-regular">${item}</li>`).join('')}
+                    </ul>
                 </div>
-                <div class="aspectos-gerais">
-                    <img src="assets/img/image.png" alt="Tempo, discurso, figuras de linguagem e linguagem da obra.">
+                <div class="imagem-estrutura">
+                    <img src="${obra.imagem_estrutura_obra}" alt="Imagem estrutura">
                 </div>
             </div>
-            <div class="video-aspectos-obra">
-                <h3 class="titulo-video-explicativo barlow-extrabold">VÍDEO EXPLICATIVO</h3>
-                <iframe width="400" height="225" style="aspect-ratio:16/9; width:100%; max-width:400px;" src="${obra.video_obra}" frameborder="0" allowfullscreen></iframe>
+            <div class="aspectos-gerais">
+                <img src="assets/img/image.png" alt="Tempo, discurso, figuras de linguagem e linguagem da obra.">
             </div>
-        `;
-        sectionAspectos.appendChild(div);
-    });
+        </div>
+        <div class="video-aspectos-obra">
+            <h3 class="titulo-video-explicativo barlow-extrabold">VÍDEO EXPLICATIVO</h3>
+            <iframe width="400" height="225" style="aspect-ratio:16/9; width:100%; max-width:400px;" src="${obra.video_obra}" frameborder="0" allowfullscreen></iframe>
+        </div>
+    `;
+    sectionAspectos.appendChild(div);
 
     // Limpa e preenche a seção de quiz (placeholder)
     const sectionQuiz = document.querySelector('.section-quiz-obra');
