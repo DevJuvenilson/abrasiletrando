@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #EDCBB0;
+}
+
+.estante-virtual {
+    margin-top: 14vh;
+    box-sizing: border-box;
+    background-color: #E35219;
+    text-align: center;
+    padding: 8em 2em;
+    width: 100%;
+    color: #FCF0E6;
+}
+
+.estante-virtual h1 {
+    font-size: 5em;
+    margin-bottom: 20px;
+}
+
+.estante-virtual p {
+    font-size: 2em;
+    padding: 0em 6em;
+}
+
+/* Estilização para telas menores */
+@media (max-width: 768px) {
+    .estante-virtual {
+        padding: 4em 1em;
+    }
+
+    .estante-virtual h1 {
+        font-size: 3em;
+    }
+
+    .estante-virtual p {
+        font-size: 1.5em;
+        padding: 0em 2em;
+    }
+}
+
+.titulo-vestibular {
+    margin: 0;
+    font-size: 3em;
+    padding: 1.5em 1em;
+    text-align: center;
+}
+
+.container-obras {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+    padding: 0em 8em 3em 8em;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.cartao {
+    width: 30%;
+}
+
+.capa-livro {
+    background-color: #FCF0E6;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    transition: transform 0.3s;
+}
+
+.capa-livro:hover {
+    transform: scale(1.05);
+}
+
+.titulo-cartao {
+    margin: 0;
+    font-size: 1.5em;
+    padding: 0.5em 0;
+}
+
+.descricao-cartao {
+    margin: 0;
+    font-size: 1em;
+    padding: 0em 1em 1em 1em;
+    text-align: center;
+}
+
+.container-botao {
+    text-align: center;
+    padding-bottom: 3em;
+}
+
+.botao-veja-mais {
+    border: none;
+    border-radius: 50px;
+    padding: 0.8em 2em;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: font-size 0.3s, transform 0.3s;
+}
+
+.botao-veja-mais:hover {
+    transform: scale(1.05);
+}
+
+/* Estilização para telas menores */
+@media (max-width: 768px) {
+    .container-obras {
+        flex-direction: column;
+        padding: 0em 2em 3em 2em;
+        gap: 1.5em;
+    }
+
+    .cartao {
+        width: 100%;
+    }
+
+    .capa-livro {
+        width: 80%;
+    }
+
+    .capa-livro:hover {
+        transform: scale(1);
+    }
+
+    .botao-veja-mais {
+        font-size: 1em;
+        padding: 0.6em 1.5em;
+    }
+
+    .botao-veja-mais:hover {
+        transform: scale(1);
+    }
+}
+
+/* CORES PARA A SEÇÃO FUVEST */
+.FUVEST {
+    background-color: #688F25;
+}
+
+.FUVEST .titulo-vestibular {
+    color: #EDCBB0;
+}
+
+.FUVEST .descricao-cartao,
+.FUVEST .titulo-cartao {
+    color: #3D0A0F;
+}
+
+.FUVEST .botao-veja-mais {
+    background-color: #B64012;
+    color: #3D0A0F;
+}
+
+.FUVEST .botao-veja-mais:hover {
+    background-color: #e5571f;
+}
+
+/* CORES PARA SEÇÃO UNICAMP */
+.UNICAMP {
+    background-color: #3D0A0F;
+}
+
+.UNICAMP .titulo-vestibular {
+    color: #B64012;
+}
+
+.UNICAMP .descricao-cartao,
+.UNICAMP .titulo-cartao {
+    color: #EDCBB0;
+}
+
+.UNICAMP .botao-veja-mais {
+    background-color: #416308;
+    color: #EDCBB0;
+}
+
+.UNICAMP .botao-veja-mais:hover {
+    background-color: #5d8c0d;
+}
+
+/* CORES PARA SEÇÃO UERJ */
+.UERJ {
+    background-color: #B64012;
+}
+
+.UERJ .titulo-vestibular {
+    color: #3D0A0F;
+}
+
+.UERJ .descricao-cartao,
+.UERJ .titulo-cartao {
+    color: #EDCBB0;
+}
+
+.UERJ .botao-veja-mais {
+    background-color: #3D0A0F;
+    color: #EDCBB0;
+}
+
+.UERJ .botao-veja-mais:hover {
+    background-color: #621119;
+}

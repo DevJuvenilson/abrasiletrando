@@ -1,4 +1,4 @@
-const MOVIMENTOS_E_OBRAS = [
+window.MOVIMENTOS_E_OBRAS = [
     // TROVADORISMO
     {
         id: 1,

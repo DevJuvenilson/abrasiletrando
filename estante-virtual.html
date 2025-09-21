@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,8 +23,19 @@
     <link rel="stylesheet" href="css/estante-virtual.css">
     <link rel="stylesheet" href="css/header-style.css">
     <link rel="stylesheet" href="css/footer-style.css">
+
+    <style>
+        footer {
+            margin-top: 0;
+        }
+    </style>
 </head>
+
 <body>
+
+    <script src="db_estante_virtual.js"></script>
+    <script src="js/estante-virtual.js"></script>
+
     <header>
         <nav class="navbar navbar-expand-lg">
             <div id="container-header">
@@ -65,7 +77,37 @@
         </nav>
     </header>
 
+    <section class="estante-virtual">
+        <h1 class="titulo-estante-virtual abril-fatface">Estante virtual</h1>
+        <p class="descricao-estante-virtual barlow-regular">Acesse as principais obras cobradas nos vestibulares.</p>
+    </section>
 
+    <section class="FUVEST">
+        <h1 class="titulo-vestibular abril-fatface">FUVEST</h1>
+        <div class="container-obras"></div>
+
+        <div class="container-botao">
+            <button class="botao-veja-mais barlow-black" onclick="">VEJA MAIS!</button>
+        </div>
+    </section>
+
+    <section class="UNICAMP">
+        <h1 class="titulo-vestibular abril-fatface">UNICAMP</h1>
+        <div class="container-obras"></div>
+
+        <div class="container-botao">
+            <button class="botao-veja-mais barlow-black" onclick="">VEJA MAIS!</button>
+        </div>
+    </section>
+
+    <section class="UERJ">
+        <h1 class="titulo-vestibular abril-fatface">UERJ</h1>
+        <div class="container-obras"></div>
+
+        <div class="container-botao">
+            <button class="botao-veja-mais barlow-black" onclick="">VEJA MAIS!</button>
+        </div>
+    </section>
 
     <footer>
         <div class="container-footer">
@@ -98,4 +140,5 @@
     <!-- JS DO HEADER -->
     <script src="js/script.js"></script>
 </body>
+
 </html>
