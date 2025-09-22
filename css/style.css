@@ -38,8 +38,13 @@ body {
     padding: 0em 6em;
 }
 
-.texto-sobre {
-    padding: 4em 2em 2em 2em;
+.texto-sobre, .texto-sobre-abrasiletrando {
+    width: 60%;
+    padding: 2em;
+}
+
+.imagem-sobre, .imagem-sobre-abrasiletrando {
+    width: 36%;
 }
 
 .container-sobre {
@@ -54,16 +59,19 @@ body {
     margin: 0;
     padding: 0;
     font-size: 1.5em;
+    color: #3D0A0F;
 }
 
 .container-sobre .titulo-abrasiletrando {
     font-size: 4em;
     margin-bottom: 20px;
+    color: #3D0A0F;
 }
 
 .container-sobre .p-texto-abrasiletrando {
     font-size: 1.2em;
     line-height: 1.6;
+    color: #3D0A0F;
 }
 
 .container-sobre .p-sobre-abrasiliana {
@@ -71,18 +79,21 @@ body {
     padding: 0;
     font-size: 1.5em;
     text-align: right;
+    color: #3D0A0F;
 }
 
 .container-sobre .titulo-abrasiliana {
     font-size: 4em;
     margin-bottom: 20px;
     text-align: right;
+    color: #3D0A0F;
 }
 
 .container-sobre .p-texto-abrasiliana {
     font-size: 1.2em;
     line-height: 1.6;
     text-align: right;
+    color: #3D0A0F;
 }
 
 @media (max-width: 768px) {
@@ -111,25 +122,34 @@ body {
         gap: 1em;
     }
 
-    .texto-sobre {
-        padding: 2em 1em 1em 1em;
+    .texto-sobre, .texto-sobre-abrasiletrando {
+        padding: 2em 0.5em;
+        width: 100%;
     }
+
+    .imagem-sobre, .imagem-sobre-abrasiletrando {
+        width: 100%;
+    }
+
 
     .container-sobre .p-sobre-abrasiletrando,
     .container-sobre .p-sobre-abrasiliana {
         font-size: 1.2em;
         text-align: center;
+        color: #3D0A0F;
     }
 
     .container-sobre .titulo-abrasiletrando,
     .container-sobre .titulo-abrasiliana {
         font-size: 2.5em;
         text-align: center;
+        color: #3D0A0F;
     }
 
     .container-sobre .p-texto-abrasiletrando,
     .container-sobre .p-texto-abrasiliana {
         font-size: 1em;
         text-align: center;
+        color: #3D0A0F;
     }
 }
