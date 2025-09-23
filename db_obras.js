@@ -274,9 +274,11 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Colonização portuguesa no Brasil",
                     "Barroco marcado por contradições (razão x fé, corpo x alma)"
                 ],
-                resumo_obra: "Conjunto de sermões que unem religiosidade, crítica social e defesa da fé católica, usando metáforas para persuadir.",
+                resumo_obra: "Conjunto de sermões que unem religiosidade, crítica social e defesa da fé católica, usando metáforas para persuadir. Destacam-se o Sermão da Sexagésima e o Sermão de Santo Antônio aos Peixes. A obra reflete a complexidade do Barroco, com linguagem rebuscada e temas como a efemeridade da vida e a luta entre o bem e o mal.",
                 estrutura_obra: [
-                    "Prosas argumentativas em sermões"
+                    "Prosas argumentativas em sermões",
+                    "Uso de figuras de linguagem (antíteses, paradoxos, hipérboles)",
+                    "Linguagem rebuscada e erudita"
                 ],
                 imagem_contexto_historico: "assets/img/contextos/contexto_barroco.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_barroco.png",
@@ -296,9 +298,12 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Influência direta de Os Lusíadas (Camões)",
                     "Primeira obra barroca no Brasil"
                 ],
-                resumo_obra: "Exalta o governador Jorge de Albuquerque Coelho e as conquistas portuguesas em terras brasileiras.",
+                resumo_obra: "Prosopopeia narra a história de uma batalha entre portugueses e mouros, com elementos mitológicos e religiosos. A obra exalta os feitos heroicos dos portugueses, mas também apresenta críticas à ambição e à corrupção, refletindo as contradições do Barroco. A linguagem é rica em metáforas, antíteses e hipérboles.",
                 estrutura_obra: [
-                    "Poema épico, versos decassílabos"
+                    "Poema épico, versos decassílabos",
+                    "Dividido em 12 cantos",
+                    "Uso de figuras de linguagem (prosopopeia, metáforas, antíteses)",
+                    "Narrador em 3ª pessoa, onisciente"
                 ],
                 imagem_contexto_historico: "assets/img/contextos/contexto_prosopopeia.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_prosopopeia.png",
@@ -318,9 +323,11 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Crise do século XVII (mortalidade, pecado e efemeridade)",
                     "Salvador (BA) como centro da vida colonial"
                 ],
-                resumo_obra: "Reúne poesias de amor, religiosas e sátiras críticas à sociedade, revelando contradições do homem barroco.",
+                resumo_obra: "As obras poéticas de Gregório de Matos abrangem temas variados, como amor, religião, crítica social e política. Conhecido como 'Boca do Inferno', ele utiliza uma linguagem satírica para denunciar a corrupção e os vícios da sociedade colonial, ao mesmo tempo em que expressa sentimentos profundos em suas poesias líricas e religiosas.",
                 estrutura_obra: [
-                    "Versos líricos e satíricos, sonetos e redondilhas"
+                    "Versos líricos e satíricos, sonetos e redondilhas",
+                    "Uso intenso de figuras de linguagem (antíteses, hipérboles, metáforas)",
+                    "Temas: amor, religião, crítica social"
                 ],
                 imagem_contexto_historico: "assets/img/contextos/contexto_obras_poeticas.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_obras_poeticas.png",
@@ -676,11 +683,14 @@ window.MOVIMENTOS_E_OBRAS = [
                 },
                 contexto_historico: [
                     "Reação contra o cientificismo e o realismo",
-                    "Busca por espiritualidade e subjetividade"
+                    "Busca por espiritualidade e subjetividade",
+                    "Influência do simbolismo europeu"
                 ],
-                resumo_obra: "Textos em prosa poética que exploram misticismo, transcendência e musicalidade da linguagem.",
+                resumo_obra: "Textos em prosa poética que exploram misticismo, transcendência e musicalidade da linguagem. A obra reflete a busca por uma linguagem simbólica que vá além do real, utilizando imagens e metáforas para evocar sentimentos profundos.",
                 estrutura_obra: [
-                    "Prosa poética, fragmentária."
+                    "Prosa poética, fragmentária.",
+                    "Uso intenso de figuras de linguagem (sinestesia, metáforas, símbolos).",
+                    "Linguagem musical e rítmica."
                 ],
                 imagem_contexto_historico: "assets/img/contextos/contexto_missal.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_missal.png",
@@ -698,11 +708,14 @@ window.MOVIMENTOS_E_OBRAS = [
                 },
                 contexto_historico: [
                     "Marco inicial do simbolismo no Brasil",
-                    "Valorização da subjetividade e do transcendental"
+                    "Valorização da subjetividade e do transcendental",
+                    "Influência do simbolismo europeu"
                 ],
-                resumo_obra: "Poemas que tratam da angústia existencial, espiritualidade, morte e musicalidade.",
+                resumo_obra: "Poemas que tratam da angústia existencial, espiritualidade, morte e musicalidade. A obra utiliza símbolos e imagens para expressar sentimentos profundos e a busca por algo além do mundo material.",
                 estrutura_obra: [
-                    "Versos livres ou metrificados e forte sonoridade."
+                    "Versos livres ou metrificados e forte sonoridade.",
+                    "Uso de figuras de linguagem (sinestesia, metáforas, símbolos).",
+                    "Linguagem musical e rítmica."
                 ],
                 imagem_contexto_historico: "assets/img/contextos/contexto_broqueis.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_broqueis.png",
@@ -723,9 +736,12 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Crítica à moral burguesa",
                     "Antecipação da estética simbolista."
                 ],
-                resumo_obra: "Coletânea de poemas sobre tédio, erotismo, morte e beleza decadente.",
+                resumo_obra: "Coletânea de poemas sobre tédio, erotismo, morte e beleza decadente. A obra explora a dualidade entre o sagrado e o profano, utilizando uma linguagem rica em símbolos e metáforas para evocar emoções complexas.",
                 estrutura_obra: [
-                    "Poemas metrificados e rimas elaboradas ou ricas."
+                    "Poemas metrificados e rimas elaboradas ou ricas.",
+                    "Dividida em seis partes temáticas.",
+                    "Uso intenso de figuras de linguagem (sinestesia, metáforas, símbolos).",
+                    "Linguagem musical e rítmica."
                 ],
                 imagem_contexto_historico: "assets/img/contextos/contexto_flores_mal.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_flores_mal.png",
@@ -753,11 +769,14 @@ window.MOVIMENTOS_E_OBRAS = [
                 },
                 contexto_historico: [
                     "Reação contra o sentimentalismo romântico",
-                    "Arte pela arte, forma perfeita"
+                    "Arte pela arte, forma perfeita",
+                    "Valorização da objetividade e da impessoalidade"
                 ],
-                resumo_obra: "Poemas amorosos e patrióticos, cultuando a perfeição formal e a estética.",
+                resumo_obra: "Poemas amorosos e patrióticos, cultuando a perfeição formal e a estética. A obra destaca a busca pela beleza ideal, utilizando uma linguagem elaborada e rica em imagens.",
                 estrutura_obra: [
-                    "Sonetos, versos decassílabos."
+                    "Sonetos, versos decassílabos.",
+                    "Rimas ricas e elaboradas.",
+                    "Linguagem rebuscada e uso de figuras de linguagem (metáforas, aliterações, sinestesias)."
                 ],
                 imagem_contexto_historico: "assets/img/contextos/contexto_parnasianismo.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_parnasianismo.png",
@@ -775,11 +794,14 @@ window.MOVIMENTOS_E_OBRAS = [
                 },
                 contexto_historico: [
                     "Tom pessimista influenciado pelo naturalismo",
-                    "Busca da forma perfeita"
+                    "Busca da forma perfeita",
+                    "Valorização da objetividade e da impessoalidade"
                 ],
-                resumo_obra: "Poemas reflexivos, com temas de efemeridade e destino inevitável.",
+                resumo_obra: "Poemas reflexivos, com temas de efemeridade e destino inevitável. A obra destaca a busca pela perfeição formal, utilizando uma linguagem precisa e rica em imagens.",
                 estrutura_obra: [
-                    "Poemas metrificados e sonetos."
+                    "Poemas metrificados e sonetos.",
+                    "Rimas ricas e elaboradas.",
+                    "Linguagem rebuscada e uso de figuras de linguagem (metáforas, aliterações, sinestesias)."
                 ],
                 imagem_contexto_historico: "assets/img/contextos/contexto_raimundo_correia.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_raimundo_correia.png",
@@ -797,11 +819,14 @@ window.MOVIMENTOS_E_OBRAS = [
                 },
                 contexto_historico: [
                     "Estética de perfeição formal",
-                    "Valorização de descrições objetivas"
+                    "Valorização de descrições objetivas",
+                    "Influência do Parnasianismo francês"
                 ],
-                resumo_obra: "Poemas que descrevem paisagens, objetos e natureza com minúcia, impessoalidade e rigor estético.",
+                resumo_obra: "Poemas que descrevem paisagens, objetos e natureza com minúcia, impessoalidade e rigor estético. A obra enfatiza a busca pela beleza ideal, utilizando uma linguagem clara e precisa.",
                 estrutura_obra: [
-                    "Sonetos e poemas descritivos."
+                    "Sonetos e poemas descritivos.",
+                    "Rimas ricas e elaboradas.",
+                    "Linguagem rebuscada e uso de figuras de linguagem (metáforas, aliterações, sinestesias)."
                 ],
                 imagem_contexto_historico: "assets/img/contextos/contexto_alberto_de_oliveira.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_alberto_de_oliveira.png",
@@ -829,11 +854,14 @@ window.MOVIMENTOS_E_OBRAS = [
                 },
                 contexto_historico: [
                     "Contradições da república velha",
-                    "Crítica ao nacionalismo exagerado"
+                    "Crítica ao nacionalismo exagerado",
+                    "Desencanto com a política e a sociedade brasileira"
                 ],
-                resumo_obra: "Narra a vida de Policarpo, patriota ingênuo que fracassa em seus ideais nacionalistas, simbolizando o desencanto com o Brasil.",
+                resumo_obra: "A obra narra a vida de Policarpo Quaresma, um patriota idealista que enfrenta o desprezo da sociedade e do governo ao tentar implementar suas ideias nacionalistas. Sua trajetória termina tragicamente, simbolizando o fracasso dos ideais utópicos diante da realidade brasileira.",
                 estrutura_obra: [
-                    "Romance em capítulos."
+                    "Romance em capítulos.",
+                    "Narrativa linear com foco no protagonista.",
+                    "Uso de ironia e crítica social."
                 ],
                 imagem_contexto_historico: "assets/img/contextos/contexto_policarpo_quaresma.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_policarpo_quaresma.png",
@@ -851,11 +879,14 @@ window.MOVIMENTOS_E_OBRAS = [
                 },
                 contexto_historico: [
                     "Guerra de Canudos",
-                    "Cientificismo e determinismo"
+                    "Cientificismo e determinismo",
+                    "Análise geográfica, social e cultural do sertão nordestino"
                 ],
-                resumo_obra: "Obra em três partes: “A Terra” (descrição da região), “O Homem” (características do sertanejo) e “A Luta” (narrativa da guerra).",
+                resumo_obra: "A obra é um estudo detalhado sobre a região do sertão nordestino e a Guerra de Canudos, onde o autor analisa os aspectos geográficos, sociais e culturais que influenciaram o conflito. Euclides da Cunha retrata a luta dos sertanejos contra as forças governamentais, destacando a resistência e a miséria do povo.",
                 estrutura_obra: [
-                    "Prosa ensaística e narrativa histórica."
+                    "Prosa ensaística e narrativa histórica.",
+                    "Dividida em três partes: A Terra, O Homem e A Luta.",
+                    "Uso de linguagem técnica e descritiva."
                 ],
                 imagem_contexto_historico: "assets/img/contextos/contexto_os_sertoes.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_os_sertoes.png",
@@ -873,9 +904,10 @@ window.MOVIMENTOS_E_OBRAS = [
                 },
                 contexto_historico: [
                     "Crítica ao atraso do interior paulista",
-                    "Surgimento do personagem Jeca Tatu"
+                    "Surgimento do personagem Jeca Tatu",
+                    "Reflexão sobre a desigualdade social e o desenvolvimento do Brasil"
                 ],
-                resumo_obra: "Retrata o caipira como símbolo do atraso nacional, revelando a desigualdade social.",
+                resumo_obra: "Coletânea de contos que retratam a vida no interior paulista, destacando a figura do Jeca Tatu, um caipira preguiçoso e ignorante. A obra critica o atraso social e econômico do Brasil rural, propondo a educação e a modernização como soluções para o progresso do país.",
                 estrutura_obra: [
                     "Contos independentes."
                 ],
