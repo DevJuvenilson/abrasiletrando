@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
         menu.classList.toggle('show-dropdown');
     });
 
-    // Fecha o dropdown ao clicar fora
+    // Efeito dropdown para telas menores - Fecha o dropdown ao clicar fora
     document.addEventListener('click', function () {
         menu.classList.remove('show-dropdown');
     });
