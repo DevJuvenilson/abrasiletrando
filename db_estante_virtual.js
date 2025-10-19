@@ -149,28 +149,28 @@ window.LIVROS_ESTANTE_VIRTUAL = [
     vestibular: "UERJ",
     obras: [
       {
-        capa_livro: "assets/img/capas-estante-virtual/capa_amor_clarice.jpg",
+        capa_livro: "assets/img/capas-estante-virtual/capa_amor_clarice.png",
         titulo: "Conto Amor",
         autor: "Clarice Lispector",
         ano:  1960,
         breve_descricao: "Conto intenso de Clarice Lispector que explora os limites da comunicação e da interioridade humana. A narrativa foca em emoções não ditas e revela como pequenas ações cotidianas carregam tensões existenciais profundas.",
       },
       {
-        capa_livro: "assets/img/capas-estante-virtual/capa_senhora.jpg",
+        capa_livro: "assets/img/capas-estante-virtual/capa_senhora.png",
         titulo: "Senhora",
         autor: "José de Alencar",
         ano: 1875,
         breve_descricao: "Romance romântico de José de Alencar em que uma mulher dotada de beleza e inteligência decide ‘comprar’ sua posição social através de um casamento negociado. Explora poder, vaidade, moralidade e os direitos femininos em contexto da sociedade do século XIX.",
       },
       {
-        capa_livro: "assets/img/capas-estante-virtual/capa_o_quase_fim_do_mundo.jpg",
+        capa_livro: "assets/img/capas-estante-virtual/capa_o_quase_fim_do_mundo.png",
         titulo: "O quase fim do mundo",
         autor: "Pepetela",
         ano: 2015,
         breve_descricao: "Distopia literária angolana que propõe uma reflexão sobre futuro, desolação e as consequências de rupturas sociais. Pepetela constrói uma narrativa que interpela fronteiras entre realidade e projeção apocalíptica, questionando valores éticos, históricos e humanos.",
       },
       {
-        capa_livro: "assets/img/capas-estante-virtual/capa_hamlet_shakespeare.jpg",
+        capa_livro: "assets/img/capas-estante-virtual/capa_hamlet_shakespeare.png",
         titulo: "Hamlet",
         autor: "William Shakespeare",
         ano: 1603,
