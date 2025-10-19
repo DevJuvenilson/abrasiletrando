@@ -65,10 +65,11 @@ function preencherPaginaMovimento(movimento, posicao) {
             </div>
             <div class="audio-obra">
                 <h3 class="titulo-audio-obra barlow-extrabold">OUÇA A TRANSCRIÇÃO!</h3>
-                <audio controls>
-                    <source src="${movimento.audio_movimento}" type="audio/mpeg">
-                    Seu navegador não suporta o elemento de áudio.
-                </audio>
+                <video controls>
+                    <!-- LINK YOUTUBE -->
+                    <source src="${informacoes_basicas_obra.audio_obra}" type="video/mp4">
+                    Seu navegador não suporta o elemento de vídeo.
+                </video>
             </div>
         </div>
     `;
@@ -122,12 +123,12 @@ function preencherPaginaMovimento(movimento, posicao) {
 window.addEventListener('DOMContentLoaded', function () {
     const { movimentoId, obraId } = getParamsFromUrl();
     const movimento = getMovimentoById(movimentoId);
-    
+
     if (!movimento) {
         document.body.innerHTML = "<h1>Movimento não encontrado!</h1>";
         return;
     };
-    
+
     document.querySelector('.nome_pagina').textContent = `${movimento.nome_movimento}`;
 
     // Preenche as informações que são sempre exibidas (título e descrição do movimento)

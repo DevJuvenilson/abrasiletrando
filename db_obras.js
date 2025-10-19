@@ -4,7 +4,6 @@ window.MOVIMENTOS_E_OBRAS = [
         id: 1,
         nome_movimento: "Trovadorismo",
         descricao_movimento: "O Trovadorismo é o primeiro movimento literário da língua portuguesa, surgido na Idade Média, entre os séculos XII e XIV. Caracteriza-se pela poesia cantada, composta por trovadores que viajavam entre cortes e nobres, compondo cantigas para entretenimento e prestígio social. As principais formas poéticas são as cantigas de amor, cantigas de amigo e cantigas de escárnio e maldizer. A linguagem é simples, clara e direta, própria da lírica popular, com forte musicalidade e repetição.",
-        audio_movimento: "assets/audios/trovadorismo.mp3",
         geracoes: false,
         obras: [
             {
@@ -27,6 +26,7 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Elementos da natureza, como o mar, são usados para refletir os sentimentos da personagem.",
                     "Musicalidade - as cantigas de Martim Codax vêm com notação musical no Pergaminho Vindel, permitindo que fossem cantadas."
                 ],
+                audio_obra: "assets/audios/ondas_do_mar_de_vigo.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_trovadorismo.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_trovadorismo.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_trovadorismo.png",
@@ -52,6 +52,7 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Refrão repetitivo: 'Dona fea, velha e sandia', reforçando o tom irônico.",
                     "Estrutura paralelística: repetição de ideias com pequenas variações, característica das cantigas de escárnio."
                 ],
+                audio_obra: "assets/audios/ai_dona_fea_fostes-vos_queixar.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_ai_dona_fea.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_ai_dona_fea.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_ai_dona_fea.png",
@@ -77,6 +78,7 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Diálogo entre a donzela e as flores, com repetição do refrão 'Ai Deus, e u é?'.",
                     "Refrão: Repetição do verso 'Ai Deus, e u é?' reforça a emoção e a musicalidade da cantiga."
                 ],
+                audio_obra: "assets/audios/amor_que_por_mim_nao_guardas_tino.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_amor_tino.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_amor_tino.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_amor_tino.png",
@@ -89,7 +91,6 @@ window.MOVIMENTOS_E_OBRAS = [
         id: 2,
         nome_movimento: "Humanismo",
         descricao_movimento: "O Humanismo é um movimento cultural e intelectual que surgiu na Europa durante o Renascimento, enfatizando a redescoberta dos valores da Antiguidade Clássica, a dignidade do ser humano e a importância da razão. Em Portugal, o Humanismo se manifestou nas artes, na literatura e na filosofia, promovendo uma visão mais crítica e racional do mundo.",
-        audio_movimento: "assets/audios/humanismo.mp3",
         geracoes: false,
         obras: [
             {
@@ -112,6 +113,7 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Ordem cronológica dos acontecimentos",
                     "Intercalação de juízos morais e comentários do autor"
                 ],
+                audio_obra: "assets/audios/cronica_del_rei_dom_joao_i.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_cronica_joao.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_cronica_joao.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_cronica_joao.png",
@@ -137,6 +139,7 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Dividido em cenas curtas com entrada da Barca do Inferno e da Barca do Paraíso",
                     "Personagens simbólicos: fidalgo, judeu, frade, etc."
                 ],
+                audio_obra: "assets/audios/auto_da_barca_do_inferno.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_barca_inferno.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_barca_inferno.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_barca_inferno.png",
@@ -162,6 +165,7 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Versos metrificados, com predominância de cantigas de amor e sátira",
                     "Apresenta poesia de corte e popular"
                 ],
+                audio_obra: "assets/audios/cancioneiro_geral.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_cancioneiro_geral.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_cancioneiro_geral.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_cancioneiro_geral.png",
@@ -174,7 +178,6 @@ window.MOVIMENTOS_E_OBRAS = [
         id: 3,
         nome_movimento: "Classicismo",
         descricao_movimento: "O Classicismo é um movimento cultural e artístico que surgiu na Europa durante o Renascimento, caracterizado pela valorização dos ideais da Antiguidade Clássica, como a harmonia, o equilíbrio, a proporção e a busca pela perfeição estética. Em Portugal, o Classicismo se manifestou na literatura, nas artes plásticas e na arquitetura, refletindo uma visão humanista do mundo e uma valorização da razão e da beleza.",
-        audio_movimento: "assets/audios/classicismo.mp3",
         geracoes: false,
         obras: [
             {
@@ -197,6 +200,7 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Versos decassílabos",
                     "Esquema rítmico ABBA ABBA CDC DCD"
                 ],
+                audio_obra: "assets/audios/amor_e_fogo_que_arde_sem_se_ver.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_classicismo.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_soneto_amor.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_classicismo.png",
@@ -221,6 +225,7 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Poema épico dividido em 10 cantos.",
                     "Escrito em oitavas (estrofes de 8 versos decassílabos, com rimas ABABABCC)"
                 ],
+                audio_obra: "assets/audios/os_lusiadas.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_os_lusiadas.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_os_lusiadas.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_os_lusiadas.png",
@@ -245,6 +250,7 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Romance dividido em duas partes (1605 e 1615).",
                     "Mais de 100 capítulos ao todo."
                 ],
+                audio_obra: "assets/audios/dom_quixote.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_dom_quixote.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_dom_quixote.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_dom_quixote.png",
@@ -257,7 +263,6 @@ window.MOVIMENTOS_E_OBRAS = [
         id: 4,
         nome_movimento: "Barroco",
         descricao_movimento: "O Barroco é um movimento cultural e artístico que surgiu na Europa no final do século XVI e se estendeu até o século XVIII, caracterizado por sua exuberância, complexidade e dramaticidade. No Brasil, o Barroco se manifestou principalmente na literatura, nas artes plásticas e na arquitetura, refletindo as contradições da época, como a tensão entre a fé religiosa e a razão, o corpo e a alma, o efêmero e o eterno.",
-        audio_movimento: "assets/audios/barroco.mp3",
         geracoes: false,
         obras: [
             {
@@ -280,6 +285,7 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Uso de figuras de linguagem (antíteses, paradoxos, hipérboles)",
                     "Linguagem rebuscada e erudita"
                 ],
+                audio_obra: "assets/audios/sermoes_padre_antonio_vieira.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_barroco.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_barroco.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_barroco.png",
@@ -305,6 +311,7 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Uso de figuras de linguagem (prosopopeia, metáforas, antíteses)",
                     "Narrador em 3ª pessoa, onisciente"
                 ],
+                audio_obra: "assets/audios/prosopopeia_bento_teixeira.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_prosopopeia.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_prosopopeia.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_prosopopeia.png",
@@ -329,6 +336,7 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Uso intenso de figuras de linguagem (antíteses, hipérboles, metáforas)",
                     "Temas: amor, religião, crítica social"
                 ],
+                audio_obra: "assets/audios/obras_poeticas_gregorio_de_matos.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_obras_poeticas.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_obras_poeticas.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_obras_poeticas.png",
@@ -341,7 +349,6 @@ window.MOVIMENTOS_E_OBRAS = [
         id: 5,
         nome_movimento: "Arcadismo",
         descricao_movimento: "O Arcadismo, também conhecido como Neoclassicismo, é um movimento literário que surgiu na Europa no século XVIII, como uma reação ao Barroco. Caracteriza-se pela valorização da simplicidade, da natureza e da razão, buscando inspiração na Antiguidade Clássica.",
-        audio_movimento: "assets/audios/arcadismo.mp3",
         geracoes: false,
         obras: [
             {
@@ -362,6 +369,7 @@ window.MOVIMENTOS_E_OBRAS = [
                 estrutura_obra: [
                     "80 liras e 13 sonetos divididos em 3 partes"
                 ],
+                audio_obra: "assets/audios/marilia_de_dirceu.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_marilia.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_marilia.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_marilia.png",
@@ -384,6 +392,7 @@ window.MOVIMENTOS_E_OBRAS = [
                 estrutura_obra: [
                     "13 cartas escritas por Tomás Antônio Gonzaga, através do pseudônimo Critilo"
                 ],
+                audio_obra: "assets/audios/cartas_chilenas.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_cartas.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_cartas.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_cartas.png",
@@ -406,6 +415,7 @@ window.MOVIMENTOS_E_OBRAS = [
                 estrutura_obra: [
                     "Dividido em cinco cantos sem divisão em estrofes"
                 ],
+                audio_obra: "assets/audios/o_uraguai.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_uraguai.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_uraguai.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_uraguai.png",
@@ -418,7 +428,6 @@ window.MOVIMENTOS_E_OBRAS = [
         id: 6,
         nome_movimento: "Romantismo",
         descricao_movimento: "O Romantismo é um movimento literário que surgiu no final do século XVIII e se estendeu pelo século XIX, caracterizado pela valorização da emoção, da imaginação e da individualidade. No Brasil, o Romantismo teve um papel importante na construção da identidade nacional, explorando temas como a natureza, o indígena, o passado histórico e a exaltação do amor. A linguagem é marcada pela subjetividade, pelo uso de figuras de linguagem e por uma estética que busca o belo e o sublime.",
-        audio_movimento: "assets/audios/romantismo.mp3",
         geracoes: true,
         obras: [
             {
@@ -442,6 +451,7 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Narrador em 3ª pessoa, onisciente.",
                     "Linguagem rica em descrições da natureza e do ambiente."
                 ],
+                audio_obra: "assets/audios/iracema.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_iracema.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_iracema.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_iracema.png",
@@ -465,6 +475,7 @@ window.MOVIMENTOS_E_OBRAS = [
                 estrutura_obra: [
                     "Narrativa-moldura dividida em 7 capítulos - prólogo, epílogo e 5 contos."
                 ],
+                audio_obra: "assets/audios/noite_na_taverna.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_noite_taverna.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_noite_taverna.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_noite_taverna.png",
@@ -488,6 +499,7 @@ window.MOVIMENTOS_E_OBRAS = [
                 estrutura_obra: [
                     "Poema épico dramático dividido em seis partes."
                 ],
+                audio_obra: "assets/audios/o_navio_negreiro.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_navio_negreiro.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_navio_negreiro.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_navio_negreiro.png",
@@ -500,7 +512,6 @@ window.MOVIMENTOS_E_OBRAS = [
         id: 7,
         nome_movimento: "Realismo",
         descricao_movimento: "O Realismo é um movimento literário que surgiu na segunda metade do século XIX, como uma reação ao Romantismo. Caracteriza-se pela representação objetiva e detalhada da realidade, com foco na análise social, psicológica e moral dos personagens. No Brasil, o Realismo se manifestou principalmente na prosa, com obras que abordam temas como a hipocrisia social, a luta de classes, a corrupção e os conflitos internos dos indivíduos. A linguagem é clara, precisa e direta, buscando retratar a vida cotidiana de forma crítica e reflexiva.",
-        audio_movimento: "assets/audios/realismo.mp3",
         geracoes: false,
         obras: [
             {
@@ -524,6 +535,7 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Narrativa digressiva (interrupções, reflexões, apartes)",
                     "Quebra da linearidade tradicional"
                 ],
+                audio_obra: "assets/audios/memorias_postumas_de_bras_cubas.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_memorias_postumas.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_memorias_postumas.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_memorias_postumas.png",
@@ -549,6 +561,7 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Narrativa em primeira pessoa, subjetiva e parcial",
                     "Mistura entre relato de fatos e digressões pessoais"
                 ],
+                audio_obra: "assets/audios/dom_casmurro.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_dom_casmurro.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_dom_casmurro.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_dom_casmurro.png",
@@ -575,6 +588,7 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Enredo linear, com episódios marcantes",
                     "Mistura de descrição detalhada e reflexão crítica"
                 ],
+                audio_obra: "assets/audios/o_ateneu.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_o_ateneu.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_o_ateneu.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_o_ateneu.png",
@@ -587,7 +601,6 @@ window.MOVIMENTOS_E_OBRAS = [
         id: 8,
         nome_movimento: "Naturalismo",
         descricao_movimento: "O Naturalismo é um movimento literário que surgiu na segunda metade do século XIX, como uma ramificação do Realismo. Caracteriza-se pela ênfase na observação científica da realidade, influenciada pelas teorias de Charles Darwin e pelo determinismo social e biológico. No Brasil, o Naturalismo se manifestou principalmente na prosa, com obras que exploram temas como a influência do meio ambiente e da hereditariedade no comportamento humano, além de abordar questões sociais como a pobreza, a marginalização e os vícios. A linguagem é objetiva, detalhada e descritiva, buscando retratar a vida de forma crua e realista.",
-        audio_movimento: "assets/audios/naturalismo.mp3",
         geracoes: false,
         obras: [
             {
@@ -609,6 +622,7 @@ window.MOVIMENTOS_E_OBRAS = [
                 estrutura_obra: [
                     "Romance naturalista dividido em 23 capítulos."
                 ],
+                audio_obra: "assets/audios/o_cortico.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_o_cortico.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_o_cortico.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_o_cortico.png",
@@ -632,6 +646,7 @@ window.MOVIMENTOS_E_OBRAS = [
                 estrutura_obra: [
                     "Romance romântico em prosa, dividido em capítulos (forma de memória/confissão)."
                 ],
+                audio_obra: "assets/audios/memorias_de_martha.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_memorias_martha.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_memorias_martha.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_memorias_martha.png",
@@ -657,6 +672,7 @@ window.MOVIMENTOS_E_OBRAS = [
                 estrutura_obra: [
                     "Romance em prosa, dividido em capítulos, com foco descritivo e analítico."
                 ],
+                audio_obra: "assets/audios/o_mulato.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_o_mulato.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_o_mulato.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_o_mulato.png",
@@ -669,7 +685,6 @@ window.MOVIMENTOS_E_OBRAS = [
         id: 9,
         nome_movimento: "Simbolismo",
         descricao_movimento: "O Simbolismo é um movimento literário que surgiu no final do século XIX, como uma reação ao Realismo e ao Naturalismo. Caracteriza-se pela valorização da subjetividade, da emoção e do mistério, buscando expressar o mundo interior e as sensações através de símbolos, imagens e metáforas. No Brasil, o Simbolismo se manifestou principalmente na poesia, com temas como a espiritualidade, a melancolia, o sonho e a busca pelo transcendental. A linguagem é marcada pela musicalidade, pela sugestão e pelo uso de figuras de linguagem que evocam sentimentos e estados de espírito.",
-        audio_movimento: "assets/audios/simbolismo.mp3",
         geracoes: false,
         obras: [
             {
@@ -692,6 +707,7 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Uso intenso de figuras de linguagem (sinestesia, metáforas, símbolos).",
                     "Linguagem musical e rítmica."
                 ],
+                audio_obra: "assets/audios/missal.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_missal.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_missal.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_missal.png",
@@ -717,6 +733,7 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Uso de figuras de linguagem (sinestesia, metáforas, símbolos).",
                     "Linguagem musical e rítmica."
                 ],
+                audio_obra: "assets/audios/broqueis.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_broqueis.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_broqueis.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_broqueis.png",
@@ -743,6 +760,7 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Uso intenso de figuras de linguagem (sinestesia, metáforas, símbolos).",
                     "Linguagem musical e rítmica."
                 ],
+                audio_obra: "assets/audios/as_flores_do_mal.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_flores_mal.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_flores_mal.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_flores_mal.png",
@@ -755,7 +773,6 @@ window.MOVIMENTOS_E_OBRAS = [
         id: 10,
         nome_movimento: "Parnasianismo",
         descricao_movimento: "O Parnasianismo é um movimento literário que surgiu na França no final do século XIX, como uma reação ao Romantismo. Caracteriza-se pela valorização da forma, da técnica e da objetividade, buscando a perfeição estética e a impessoalidade na criação literária. No Brasil, o Parnasianismo se manifestou principalmente na poesia, com temas como a mitologia, a natureza, a arte e a exaltação da beleza. A linguagem é marcada pela precisão, pela clareza e pelo uso de figuras de linguagem que enfatizam a musicalidade e a harmonia dos versos.",
-        audio_movimento: "assets/audios/parnasianismo.mp3",
         geracoes: false,
         obras: [
             {
@@ -778,6 +795,7 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Rimas ricas e elaboradas.",
                     "Linguagem rebuscada e uso de figuras de linguagem (metáforas, aliterações, sinestesias)."
                 ],
+                audio_obra: "assets/audios/poesias_olavo_bilac.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_parnasianismo.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_parnasianismo.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_parnasianismo.png",
@@ -803,6 +821,7 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Rimas ricas e elaboradas.",
                     "Linguagem rebuscada e uso de figuras de linguagem (metáforas, aliterações, sinestesias)."
                 ],
+                audio_obra: "assets/audios/poesias_raimundo_correia.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_raimundo_correia.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_raimundo_correia.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_raimundo_correia.png",
@@ -828,6 +847,7 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Rimas ricas e elaboradas.",
                     "Linguagem rebuscada e uso de figuras de linguagem (metáforas, aliterações, sinestesias)."
                 ],
+                audio_obra: "assets/audios/poesias_alberto_de_oliveira.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_alberto_de_oliveira.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_alberto_de_oliveira.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_alberto_de_oliveira.png",
@@ -840,7 +860,6 @@ window.MOVIMENTOS_E_OBRAS = [
         id: 11,
         nome_movimento: "Pré-Modernismo",
         descricao_movimento: "O Pré-Modernismo é um período de transição na literatura brasileira que antecede o Modernismo, abrangendo aproximadamente as primeiras décadas do século XX. Caracteriza-se pela diversidade de estilos e temas, refletindo as mudanças sociais, políticas e econômicas do Brasil da época. O Pré-Modernismo aborda questões como a identidade nacional, a crítica social, a vida urbana e rural, além de explorar diferentes regiões do país. A linguagem varia entre o regionalismo, o realismo e o simbolismo, preparando o terreno para as inovações que viriam com o Modernismo.",
-        audio_movimento: "assets/audios/pre_modernismo.mp3",
         geracoes: false,
         obras: [
             {
@@ -863,6 +882,7 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Narrativa linear com foco no protagonista.",
                     "Uso de ironia e crítica social."
                 ],
+                audio_obra: "assets/audios/o_triste_fim_de_policarpo_quaresma.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_policarpo_quaresma.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_policarpo_quaresma.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_policarpo_quaresma.png",
@@ -888,6 +908,7 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Dividida em três partes: A Terra, O Homem e A Luta.",
                     "Uso de linguagem técnica e descritiva."
                 ],
+                audio_obra: "assets/audios/os_sertoes.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_os_sertoes.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_os_sertoes.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_os_sertoes.png",
@@ -911,6 +932,7 @@ window.MOVIMENTOS_E_OBRAS = [
                 estrutura_obra: [
                     "Contos independentes."
                 ],
+                audio_obra: "assets/audios/urupes.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_urupes.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_urupes.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_urupes.png",
@@ -923,7 +945,6 @@ window.MOVIMENTOS_E_OBRAS = [
         id: 12,
         nome_movimento: "Modernismo",
         descricao_movimento: "O Modernismo é um movimento literário que surgiu no início do século XX, caracterizado pela ruptura com as tradições literárias anteriores e pela busca de novas formas de expressão. No Brasil, o Modernismo teve seu marco inicial na Semana de Arte Moderna de 1922, que reuniu artistas e escritores que propunham uma renovação estética e cultural. O movimento valorizou a experimentação, a liberdade criativa e a diversidade cultural, explorando temas como a identidade nacional, a urbanização, a industrialização e as questões sociais. A linguagem modernista é marcada pela inovação, pelo uso de coloquialismos, pela mistura de estilos e pela valorização do regionalismo.",
-        audio_movimento: "assets/audios/modernismo.mp3",
         geracoes: true,
         obras: [
             {
@@ -947,6 +968,7 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Dividido em 17 capítulos.",
                     "Prosa narrativa com forte influência oral e popular."
                 ],
+                audio_obra: "assets/audios/macunaima.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_macunaima.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_macunaima.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_macunaima.png",
@@ -973,6 +995,7 @@ window.MOVIMENTOS_E_OBRAS = [
                     "13 capítulos independentes (podem ser lidos isoladamente).",
                     "Narrativa não totalmente linear, com idas e vindas."
                 ],
+                audio_obra: "assets/audios/vidas_secas.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_vidas_secas.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_vidas_secas.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_vidas_secas.png",
@@ -998,6 +1021,7 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Narrativa fragmentada, múltiplos pontos de vista.",
                     "Alternância entre monólogos interiores e diálogos."
                 ],
+                audio_obra: "assets/audios/as_meninas.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_as_meninas.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_as_meninas.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_as_meninas.png",
