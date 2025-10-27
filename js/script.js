@@ -24,3 +24,22 @@ document.addEventListener('DOMContentLoaded', function () {
         menu.classList.remove('show-dropdown');
     });
 });
+
+// CARROSSEL DE IMAGENS
+const leftBtn = document.querySelector(".carrossel-btn.left");
+const rightBtn = document.querySelector(".carrossel-btn.right");
+const carrosselImages = document.querySelector(".carrossel-images");
+
+leftBtn.addEventListener("click", () => {
+    carrosselImages.scrollBy({
+        left: -220, // Largura do card + gap
+        behavior: "smooth"
+    });
+});
+
+rightBtn.addEventListener("click", () => {
+    carrosselImages.scrollBy({
+        left: 220,
+        behavior: "smooth"
+    });
+});
