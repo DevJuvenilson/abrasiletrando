@@ -1,37 +1,25 @@
 .carrossel {
-    padding: 10px 30px;
+    padding: 0.5em 4em;
     box-sizing: border-box;
 }
 
-.carrossel-container{
+.carrossel-container {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
 }
 
-.carrossel-content > h1 {
+.carrossel-content>h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 300;
     font-size: 3rem;
     color: #412625;
 }
 
-.carrossel-content > p {
+.carrossel-content>p {
     text-indent: 2em;
     font-family: "Microsoft Yi Baiti", sans-serif;
     font-size: 28px;
-}
-
-@media (max-width: 768px) {
-    .carrossel {
-        padding: 20px;
-        box-sizing: border-box;
-    }
-
-    .carrossel-container {
-        flex-direction: column;
-        align-items: center;
-    }
 }
 
 .carrossel-content {
@@ -40,7 +28,7 @@
     box-sizing: border-box;
 }
 
-.carrossel-image > img {
+.carrossel-image>img {
     box-sizing: border-box;
     width: 100%;
     height: auto;
@@ -62,100 +50,101 @@
     overflow-x: auto;
     scroll-behavior: smooth;
     padding: 10px 0;
+    overflow: auto;
 }
 
-.card {
+/* Customização da barra de rolagem */
+.carrossel-images::-webkit-scrollbar {
+    height: 6px; /* Define a altura da barra de rolagem */
+}
+
+.carrossel-images::-webkit-scrollbar-track {
+    background: transparent; /* Remove o fundo da barra */
+}
+
+.carrossel-images::-webkit-scrollbar-thumb {
+    background: #3D0A0F; /* Cor da barra de rolagem */
+    border-radius: 10px; /* Deixa a barra arredondada */
+}
+
+.carrossel-images::-webkit-scrollbar-thumb:hover {
+    background: #2f080c; /* Cor da barra ao passar o mouse */
+}
+
+.cartao {
     flex: 0 0 auto;
     width: 200px;
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
-.card img {
+.cartao img {
     width: 100%;
     height: auto;
     border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
-.card p {
-    margin-top: 10px;
-    font-family: "Microsoft Yi Baiti", sans-serif;
-    font-size: 18px;
-    color: #412625;
+.horizontal-cartao {
+    flex: 0 0 auto;
+    width: 355px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
-.carrossel-btn {
-    background-color: #412625;
-    color: white;
+.horizontal-cartao img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.carrossel-botao {
+    background-color: #EDCBB0;
+    color: #3D0A0F;
     border: none;
-    padding: 10px;
     cursor: pointer;
     font-size: 2rem;
-    border-radius: 50%;
     z-index: 2;
     transition: background-color 0.3s ease;
 }
 
-.carrossel-btn:hover {
-    background-color: #5c3c3c;
+.carrossel-botao:hover {
+    color: #2f080c;
 }
 
 /* Responsivo */
 @media (max-width: 768px) {
-    .card {
-        width: 150px;
+    .cartao {
+        width: 200px;
     }
 
-    .carrossel-btn {
+    .carrossel-botao {
         padding: 8px;
         font-size: 16px;
     }
-}
 
-.sobre {
-    padding: 10px 30px;
-    box-sizing: border-box;
-}
-
-.sobre-container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.sobre-content > h1 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: 300;
-    font-size: 3rem;
-    color: #412625;
-}
-
-.sobre-content > p {
-    text-indent: 2em;
-    font-family: "Microsoft Yi Baiti", sans-serif;
-    font-size: 28px;
-}
-
-@media (max-width: 768px) {
-    .sobre {
-        padding: 20px;
+    .carrossel {
+        padding: 16px;
         box-sizing: border-box;
     }
 
-    .sobre-container {
+    .carrossel-container {
         flex-direction: column;
         align-items: center;
     }
-}
 
-.sobre-content {
-    text-align: justify;
-    padding: 0px 20px;
-    box-sizing: border-box;
-}
-
-.sobre-image > img {
-    box-sizing: border-box;
-    width: 100%;
-    height: auto;
+    .carrossel-images {
+        display: flex;
+        gap: 20px;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+        padding: 10px 0;
+        overflow: auto;
+    }
 }

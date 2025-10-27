@@ -10,7 +10,7 @@ body {
 }
 
 /* Garante que o carrossel comece abaixo do header fixo */
-.carrossel {
+.carrossel-banner {
     padding-top: 16vh;
     box-sizing: border-box;
 }

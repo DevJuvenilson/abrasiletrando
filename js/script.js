@@ -26,8 +26,8 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 // CARROSSEL DE IMAGENS
-const leftBtn = document.querySelector(".carrossel-btn.left");
-const rightBtn = document.querySelector(".carrossel-btn.right");
+const leftBtn = document.querySelector(".carrossel-botao.left");
+const rightBtn = document.querySelector(".carrossel-botao.right");
 const carrosselImages = document.querySelector(".carrossel-images");
 
 leftBtn.addEventListener("click", () => {
