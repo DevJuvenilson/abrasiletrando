@@ -365,7 +365,7 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Inconfidência Mineira",
                     "Influência do Iluminismo"
                 ],
-                resumo_obra: "Trata do amor idealizado entre o pastor Dirceu e Marília, exaltando a vida simples e bucólica.",
+                resumo_obra: "O poeta Dirceu fala sobre seu amor por Marília, sonhando com uma vida simples e feliz ao lado dela no campo. Ele descreve momentos de carinho, idealiza a amada e imagina o casamento dos dois. Quando é preso, passa a escrever sobre a saudade, o sofrimento e a esperança de reencontrá-la. As liras mostram a passagem do amor alegre e idealizado para o amor triste e distante, marcado pela solidão da prisão.",
                 estrutura_obra: [
                     "80 liras e 13 sonetos divididos em 3 partes"
                 ],
@@ -388,7 +388,7 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Inconfidência Mineira",
                     "Crítica à administração colonial"
                 ],
-                resumo_obra: "Critica, de forma irônica e satírica, os abusos de poder, a corrupção e as injustiças da administração colonial em Minas Gerais.",
+                resumo_obra: "Um narrador chamado Critilo escreve cartas ao amigo Doroteu contando o que acontece no “Chile”. Na verdade, ele está descrevendo a cidade de Vila Rica, em Minas Gerais. Nas cartas, Critilo critica o governador Fanfarrão Minésio, que age de forma autoritária, corrupta e injusta. Ele relata abusos, privilégios e desrespeito às leis, denunciando as falhas do governo colonial. A narrativa usa o disfarce das cartas para atacar os poderosos de forma satírica e indireta.",
                 estrutura_obra: [
                     "13 cartas escritas por Tomás Antônio Gonzaga, através do pseudônimo Critilo"
                 ],
@@ -411,7 +411,7 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Expedições luso-espanholas",
                     "Missões jesuíticas no Rio Grande do Sul"
                 ],
-                resumo_obra: "Narra as Guerras Guaraníticas, exaltando a coragem dos indígenas e criticando a violência e exploração dos colonizadores.",
+                resumo_obra: "A obra narra o confronto entre as forças luso-espanholas e os índios guaranis que viviam nas missões jesuíticas do sul do Brasil. Liderados pelos padres, os indígenas tentam resistir à expulsão de suas terras após o Tratado de Madri, mas acabam sendo derrotados. O poema mostra a destruição das reduções, a morte de líderes indígenas e o sofrimento do povo guarani, revelando as tensões entre religião, poder e liberdade, além de criticar a exploração e o domínio europeu sobre os povos nativos.",
                 estrutura_obra: [
                     "Dividido em cinco cantos sem divisão em estrofes"
                 ],
