@@ -127,6 +127,25 @@
     user-select: none;
 }
 
+/* Customização da barra de rolagem */
+.nav-dropdown-menu::-webkit-scrollbar {
+    height: 6px; /* Define a altura da barra de rolagem */
+    width: 6px;
+}
+
+.nav-dropdown-menu::-webkit-scrollbar-track {
+    background: transparent; /* Remove o fundo da barra */
+}
+
+.nav-dropdown-menu::-webkit-scrollbar-thumb {
+    background: #3D0A0F; /* Cor da barra de rolagem */
+    border-radius: 0px; /* Deixa a barra arredondada */
+}
+
+.nav-dropdown-menu::-webkit-scrollbar-thumb:hover {
+    background: #2f080c; /* Cor da barra ao passar o mouse */
+}
+
 @media (max-width: 768px) {
     #container-header {
         padding: 1em 2em;
