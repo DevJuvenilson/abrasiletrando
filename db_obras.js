@@ -26,7 +26,7 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Elementos da natureza, como o mar, são usados para refletir os sentimentos da personagem.",
                     "Musicalidade - as cantigas de Martim Codax vêm com notação musical no Pergaminho Vindel, permitindo que fossem cantadas."
                 ],
-                audio_obra: "assets/audios/ondas_do_mar_de_vigo.mp4",
+                audio_obra: "https://wave.video/embed/68fffc4687834c0b884a54bb/68fffc49c55da721870687ed.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_trovadorismo.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_trovadorismo.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_trovadorismo.png",
@@ -52,7 +52,7 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Refrão repetitivo: 'Dona fea, velha e sandia', reforçando o tom irônico.",
                     "Estrutura paralelística: repetição de ideias com pequenas variações, característica das cantigas de escárnio."
                 ],
-                audio_obra: "assets/audios/ai_dona_fea_fostes-vos_queixar.mp4",
+                audio_obra: "https://wave.video/embed/68fffc13c55da72187068788/68fffc163fa2977430499e3d.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_ai_dona_fea.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_ai_dona_fea.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_ai_dona_fea.png",
@@ -78,7 +78,7 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Diálogo entre a donzela e as flores, com repetição do refrão 'Ai Deus, e u é?'.",
                     "Refrão: Repetição do verso 'Ai Deus, e u é?' reforça a emoção e a musicalidade da cantiga."
                 ],
-                audio_obra: "assets/audios/amor_que_por_mim_nao_guardas_tino.mp4",
+                audio_obra: "https://wave.video/embed/68fffc113fa2977430499e17/68fffc147232084f2ee8e7c7.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_amor_tino.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_amor_tino.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_amor_tino.png",
@@ -113,7 +113,7 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Ordem cronológica dos acontecimentos",
                     "Intercalação de juízos morais e comentários do autor"
                 ],
-                audio_obra: "assets/audios/cronica_del_rei_dom_joao_i.mp4",
+                audio_obra: "https://wave.video/embed/68fffc4287834c0b884a54ae/68fffc461403b338c95b6744.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_cronica_joao.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_cronica_joao.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_cronica_joao.png",
@@ -139,7 +139,7 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Dividido em cenas curtas com entrada da Barca do Inferno e da Barca do Paraíso",
                     "Personagens simbólicos: fidalgo, judeu, frade, etc."
                 ],
-                audio_obra: "assets/audios/auto_da_barca_do_inferno.mp4",
+                audio_obra: "https://wave.video/embed/68fffc431403b338c95b6734/68fffc47c55da721870687db.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_barca_inferno.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_barca_inferno.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_barca_inferno.png",
@@ -165,7 +165,7 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Versos metrificados, com predominância de cantigas de amor e sátira",
                     "Apresenta poesia de corte e popular"
                 ],
-                audio_obra: "assets/audios/cancioneiro_geral.mp4",
+                audio_obra: "https://wave.video/embed/68fffc45c55da721870687c3/68fffc4987834c0b884a54d3.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_cancioneiro_geral.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_cancioneiro_geral.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_cancioneiro_geral.png",
@@ -200,7 +200,7 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Versos decassílabos",
                     "Esquema rítmico ABBA ABBA CDC DCD"
                 ],
-                audio_obra: "assets/audios/amor_e_fogo_que_arde_sem_se_ver.mp4",
+                audio_obra: "https://wave.video/embed/68ff81ef3fa29774304937d6/68ff81f31403b338c95b0093.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_classicismo.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_soneto_amor.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_classicismo.png",
@@ -225,7 +225,7 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Poema épico dividido em 10 cantos.",
                     "Escrito em oitavas (estrofes de 8 versos decassílabos, com rimas ABABABCC)"
                 ],
-                audio_obra: "assets/audios/os_lusiadas.mp4",
+                audio_obra: "https://wave.video/embed/68ff812a7232084f2ee883cd/68ff812f1403b338c95affae.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_os_lusiadas.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_os_lusiadas.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_os_lusiadas.png",
@@ -250,7 +250,7 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Romance dividido em duas partes (1605 e 1615).",
                     "Mais de 100 capítulos ao todo."
                 ],
-                audio_obra: "assets/audios/dom_quixote.mp4",
+                audio_obra: "https://wave.video/embed/68ff704a87834c0b8849e2ad/68ff704ec55da72187060e6f.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_dom_quixote.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_dom_quixote.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_dom_quixote.png",
@@ -285,7 +285,7 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Uso de figuras de linguagem (antíteses, paradoxos, hipérboles)",
                     "Linguagem rebuscada e erudita"
                 ],
-                audio_obra: "assets/audios/sermoes_padre_antonio_vieira.mp4",
+                audio_obra: "https://wave.video/embed/68fffbd81403b338c95b6663/68fffbdb7232084f2ee8e750.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_barroco.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_barroco.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_barroco.png",
@@ -311,7 +311,7 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Uso de figuras de linguagem (prosopopeia, metáforas, antíteses)",
                     "Narrador em 3ª pessoa, onisciente"
                 ],
-                audio_obra: "assets/audios/prosopopeia_bento_teixeira.mp4",
+                audio_obra: "https://wave.video/embed/68fffc16c55da7218706879b/68fffc197232084f2ee8e7cd.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_prosopopeia.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_prosopopeia.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_prosopopeia.png",
@@ -336,7 +336,7 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Uso intenso de figuras de linguagem (antíteses, hipérboles, metáforas)",
                     "Temas: amor, religião, crítica social"
                 ],
-                audio_obra: "assets/audios/obras_poeticas_gregorio_de_matos.mp4",
+                audio_obra: "https://wave.video/embed/68fffbebc55da721870686f7/68fffbeec55da72187068714.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_obras_poeticas.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_obras_poeticas.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_obras_poeticas.png",
@@ -369,7 +369,7 @@ window.MOVIMENTOS_E_OBRAS = [
                 estrutura_obra: [
                     "80 liras e 13 sonetos divididos em 3 partes"
                 ],
-                audio_obra: "assets/audios/marilia_de_dirceu.mp4",
+                audio_obra: "https://wave.video/embed/68fffde81403b338c95b6899/68fffdeb87834c0b884a55fd.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_marilia.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_marilia.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_marilia.png",
@@ -392,7 +392,7 @@ window.MOVIMENTOS_E_OBRAS = [
                 estrutura_obra: [
                     "13 cartas escritas por Tomás Antônio Gonzaga, através do pseudônimo Critilo"
                 ],
-                audio_obra: "assets/audios/cartas_chilenas.mp4",
+                audio_obra: "https://wave.video/embed/68fffe293fa297743049a014/68fffe2c7232084f2ee8e915.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_cartas.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_cartas.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_cartas.png",
@@ -415,7 +415,7 @@ window.MOVIMENTOS_E_OBRAS = [
                 estrutura_obra: [
                     "Dividido em cinco cantos sem divisão em estrofes"
                 ],
-                audio_obra: "assets/audios/o_uraguai.mp4",
+                audio_obra: "https://wave.video/embed/68fffdd73fa2977430499feb/68fffdda7232084f2ee8e8f1.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_uraguai.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_uraguai.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_uraguai.png",
@@ -451,7 +451,7 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Narrador em 3ª pessoa, onisciente.",
                     "Linguagem rica em descrições da natureza e do ambiente."
                 ],
-                audio_obra: "assets/audios/iracema.mp4",
+                audio_obra: "https://wave.video/embed/68fffdce3fa2977430499fc2/68fffdd11403b338c95b685f.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_iracema.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_iracema.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_iracema.png",
@@ -475,7 +475,7 @@ window.MOVIMENTOS_E_OBRAS = [
                 estrutura_obra: [
                     "Narrativa-moldura dividida em 7 capítulos - prólogo, epílogo e 5 contos."
                 ],
-                audio_obra: "assets/audios/noite_na_taverna.mp4",
+                audio_obra: "https://wave.video/embed/68fffdd23fa2977430499fdb/68fffdd587834c0b884a55e4.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_noite_taverna.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_noite_taverna.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_noite_taverna.png",
@@ -499,7 +499,7 @@ window.MOVIMENTOS_E_OBRAS = [
                 estrutura_obra: [
                     "Poema épico dramático dividido em seis partes."
                 ],
-                audio_obra: "assets/audios/o_navio_negreiro.mp4",
+                audio_obra: "https://wave.video/embed/68fffdce7232084f2ee8e8be/68fffdd13fa2977430499fd2.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_navio_negreiro.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_navio_negreiro.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_navio_negreiro.png",
@@ -535,7 +535,7 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Narrativa digressiva (interrupções, reflexões, apartes)",
                     "Quebra da linearidade tradicional"
                 ],
-                audio_obra: "assets/audios/memorias_postumas_de_bras_cubas.mp4",
+                audio_obra: "https://wave.video/embed/68fffc84c55da7218706882c/68fffc881403b338c95b67ab.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_memorias_postumas.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_memorias_postumas.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_memorias_postumas.png",
@@ -561,7 +561,7 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Narrativa em primeira pessoa, subjetiva e parcial",
                     "Mistura entre relato de fatos e digressões pessoais"
                 ],
-                audio_obra: "assets/audios/dom_casmurro.mp4",
+                audio_obra: "https://wave.video/embed/68fffc791403b338c95b677b/68fffc7c87834c0b884a54ff.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_dom_casmurro.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_dom_casmurro.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_dom_casmurro.png",
@@ -588,7 +588,7 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Enredo linear, com episódios marcantes",
                     "Mistura de descrição detalhada e reflexão crítica"
                 ],
-                audio_obra: "assets/audios/o_ateneu.mp4",
+                audio_obra: "https://wave.video/embed/68fffc773fa2977430499ebf/68fffc7a87834c0b884a54f9.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_o_ateneu.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_o_ateneu.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_o_ateneu.png",
@@ -622,7 +622,7 @@ window.MOVIMENTOS_E_OBRAS = [
                 estrutura_obra: [
                     "Romance naturalista dividido em 23 capítulos."
                 ],
-                audio_obra: "assets/audios/o_cortico.mp4",
+                audio_obra: "https://wave.video/embed/68fffd7c1403b338c95b6809/68fffd817232084f2ee8e88c.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_o_cortico.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_o_cortico.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_o_cortico.png",
@@ -646,7 +646,7 @@ window.MOVIMENTOS_E_OBRAS = [
                 estrutura_obra: [
                     "Romance romântico em prosa, dividido em capítulos (forma de memória/confissão)."
                 ],
-                audio_obra: "assets/audios/memorias_de_martha.mp4",
+                audio_obra: "https://wave.video/embed/68fffda33fa2977430499f8f/68fffda67232084f2ee8e898.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_memorias_martha.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_memorias_martha.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_memorias_martha.png",
@@ -672,7 +672,7 @@ window.MOVIMENTOS_E_OBRAS = [
                 estrutura_obra: [
                     "Romance em prosa, dividido em capítulos, com foco descritivo e analítico."
                 ],
-                audio_obra: "assets/audios/o_mulato.mp4",
+                audio_obra: "https://wave.video/embed/68fffd8b1403b338c95b6825/68fffd8f3fa2977430499f80.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_o_mulato.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_o_mulato.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_o_mulato.png",
@@ -707,7 +707,7 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Uso intenso de figuras de linguagem (sinestesia, metáforas, símbolos).",
                     "Linguagem musical e rítmica."
                 ],
-                audio_obra: "assets/audios/missal.mp4",
+                audio_obra: "https://wave.video/embed/68ffc0ac1403b338c95b3ab1/68ffc0afc55da72187065900.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_missal.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_missal.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_missal.png",
@@ -733,7 +733,7 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Uso de figuras de linguagem (sinestesia, metáforas, símbolos).",
                     "Linguagem musical e rítmica."
                 ],
-                audio_obra: "assets/audios/broqueis.mp4",
+                audio_obra: "https://wave.video/embed/68ffc0ac1403b338c95b3abe/68ffc0b1c55da7218706590c.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_broqueis.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_broqueis.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_broqueis.png",
@@ -760,7 +760,7 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Uso intenso de figuras de linguagem (sinestesia, metáforas, símbolos).",
                     "Linguagem musical e rítmica."
                 ],
-                audio_obra: "assets/audios/as_flores_do_mal.mp4",
+                audio_obra: "https://wave.video/embed/68ffc0adc55da721870658f0/68ffc0b57232084f2ee8bbf7.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_flores_mal.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_flores_mal.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_flores_mal.png",
@@ -795,7 +795,7 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Rimas ricas e elaboradas.",
                     "Linguagem rebuscada e uso de figuras de linguagem (metáforas, aliterações, sinestesias)."
                 ],
-                audio_obra: "assets/audios/poesias_olavo_bilac.mp4",
+                audio_obra: "https://wave.video/embed/68ffc0ad7232084f2ee8bbd2/68ffc0b17232084f2ee8bbe8.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_parnasianismo.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_parnasianismo.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_parnasianismo.png",
@@ -821,7 +821,7 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Rimas ricas e elaboradas.",
                     "Linguagem rebuscada e uso de figuras de linguagem (metáforas, aliterações, sinestesias)."
                 ],
-                audio_obra: "assets/audios/poesias_raimundo_correia.mp4",
+                audio_obra: "https://wave.video/embed/68ffbfb5c55da72187065830/68ffbfb83fa2977430497023.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_raimundo_correia.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_raimundo_correia.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_raimundo_correia.png",
@@ -847,7 +847,7 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Rimas ricas e elaboradas.",
                     "Linguagem rebuscada e uso de figuras de linguagem (metáforas, aliterações, sinestesias)."
                 ],
-                audio_obra: "assets/audios/poesias_alberto_de_oliveira.mp4",
+                audio_obra: "https://wave.video/embed/68ffbfb21403b338c95b39a6/68ffbfb63fa2977430497017.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_alberto_de_oliveira.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_alberto_de_oliveira.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_alberto_de_oliveira.png",
@@ -882,7 +882,7 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Narrativa linear com foco no protagonista.",
                     "Uso de ironia e crítica social."
                 ],
-                audio_obra: "assets/audios/o_triste_fim_de_policarpo_quaresma.mp4",
+                audio_obra: "https://wave.video/embed/68ffbf8687834c0b884a29dc/68ffbf8987834c0b884a29ec.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_policarpo_quaresma.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_policarpo_quaresma.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_policarpo_quaresma.png",
@@ -908,7 +908,7 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Dividida em três partes: A Terra, O Homem e A Luta.",
                     "Uso de linguagem técnica e descritiva."
                 ],
-                audio_obra: "assets/audios/os_sertoes.mp4",
+                audio_obra: "https://wave.video/embed/68ffbf5bc55da721870657df/68ffbf5ec55da721870657f4.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_os_sertoes.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_os_sertoes.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_os_sertoes.png",
@@ -932,7 +932,7 @@ window.MOVIMENTOS_E_OBRAS = [
                 estrutura_obra: [
                     "Contos independentes."
                 ],
-                audio_obra: "assets/audios/urupes.mp4",
+                audio_obra: "https://wave.video/embed/68ffbf223fa2977430496f5e/68ffbf26c55da7218706578c.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_urupes.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_urupes.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_urupes.png",
@@ -968,7 +968,7 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Dividido em 17 capítulos.",
                     "Prosa narrativa com forte influência oral e popular."
                 ],
-                audio_obra: "assets/audios/macunaima.mp4",
+                audio_obra: "https://wave.video/embed/68fffc843fa2977430499ee8/68fffc881403b338c95b679f.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_macunaima.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_macunaima.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_macunaima.png",
@@ -995,7 +995,7 @@ window.MOVIMENTOS_E_OBRAS = [
                     "13 capítulos independentes (podem ser lidos isoladamente).",
                     "Narrativa não totalmente linear, com idas e vindas."
                 ],
-                audio_obra: "assets/audios/vidas_secas.mp4",
+                audio_obra: "https://wave.video/embed/68fffc8087834c0b884a5508/68fffc8387834c0b884a551e.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_vidas_secas.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_vidas_secas.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_vidas_secas.png",
@@ -1021,7 +1021,7 @@ window.MOVIMENTOS_E_OBRAS = [
                     "Narrativa fragmentada, múltiplos pontos de vista.",
                     "Alternância entre monólogos interiores e diálogos."
                 ],
-                audio_obra: "assets/audios/as_meninas.mp4",
+                audio_obra: "https://wave.video/embed/68fffc85c55da72187068839/68fffc8cc55da7218706884f.mp4",
                 imagem_contexto_historico: "assets/img/contextos/contexto_as_meninas.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_as_meninas.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_as_meninas.png",
