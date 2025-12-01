@@ -799,7 +799,7 @@ window.MOVIMENTOS_E_OBRAS = [
                 imagem_contexto_historico: "assets/img/contextos/contexto_parnasianismo.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_parnasianismo.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_parnasianismo.png",
-                video_obra: "https://www.youtube.com/embed/parnasianismo123"
+                video_obra: "https://youtube.com/embed/ObQlgAUeMG8"
             },
             {
                 id: 2,

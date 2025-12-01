@@ -103,11 +103,7 @@ function preencherPaginaMovimento(movimento, posicao) {
         </div>
         <div class="video-aspectos-obra">
             <h3 class="titulo-video-explicativo barlow-extrabold">VÍDEO EXPLICATIVO</h3>
-            <video controls>
-                <!-- LINK YOUTUBE -->
-                <source src="${aspectos_linguisticos_obra.video_obra}" type="video/mp4">
-                Seu navegador não suporta o elemento de vídeo.
-            </video>
+            <iframe width="315" height="560" src="${aspectos_linguisticos_obra.video_obra}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
     `;
     sectionAspectos.appendChild(div_aspectos);
