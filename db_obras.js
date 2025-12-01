@@ -56,7 +56,7 @@ window.MOVIMENTOS_E_OBRAS = [
                 imagem_contexto_historico: "assets/img/contextos/contexto_ai_dona_fea.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_ai_dona_fea.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_ai_dona_fea.png",
-                video_obra: "https://www.youtube.com/embed/efgh5678"
+                video_obra: "https://www.youtube.com/embed/8y0Fx50UYao?si=fZ4W8Cb6v9CmqSJ1"
             },
             {
                 id: 3,
@@ -455,7 +455,7 @@ window.MOVIMENTOS_E_OBRAS = [
                 imagem_contexto_historico: "assets/img/contextos/contexto_iracema.png",
                 imagem_estrutura_obra: "assets/img/estruturas/estrutura_iracema.png",
                 tempo_discurso_figuras_linguagem_e_linguagem_banner: "assets/img/banners/banner_iracema.png",
-                video_obra: "https://www.youtube.com/embed/3e2b8kXW1yY"
+                video_obra: "https://youtube.com/embed/mna3GsvUKW8?si=U-mrPV9SEchZ7vZG"
             },
             {
                 id: 2,
