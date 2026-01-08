@@ -56,6 +56,6 @@ index.html
 
 ---
 
-## 🧠 WhatI've learned?
+## 🧠 What I learned?
 
 In this project I could practice more of my hard skills in HTML and CSS by making good and responsive designs and JS by implementing dynamic content using the URL, but more than that I practiced my teamwork and management habilities by being the leader of development and connecting all three members of the team to push the project and reach our goal. 
