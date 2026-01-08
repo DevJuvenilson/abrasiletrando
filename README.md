@@ -25,10 +25,15 @@ You can access the website in this link: https://devjuvenilson.github.io/abrasil
 ## 📂 Project Structure
 
 ABRASILETRANDO/
+<br>
 ├── js/
+<br>
 ├── css/
+<br>
 └── assets/
+    <br>
     ├── audios/
+    <br>
     └── img/
 
 ---
