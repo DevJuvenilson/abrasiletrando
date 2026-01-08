@@ -38,13 +38,13 @@ ABRASILETRANDO/
 
 ### Step by step
 
-# Clone the repository
+### Clone the repository
 git clone https://github.com/DevJuvenilson/abrasiletrando.git
 
-# Get in the folder
+### Get in the folder
 cd name-of-folder
 
-# Double click on index.html file
+### Double click on index.html file
 index.html
 
 ---
